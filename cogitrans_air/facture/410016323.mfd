@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Edited with Altova MapForce 2023sp1 -->
-<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="31">
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<resources/>
-	<component name="defaultmap" uid="1" editable="1">
-		<properties SelectedLanguage="builtin"/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="cs"/>
 		<structure>
 			<children>
+				<component name="UBL-Invoice-2.1" library="xml" uid="4" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="664" lty="-73" rbx="964" rby="427"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+									<namespace uid="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="2" expanded="1">
+								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="Invoice" ns="1" expanded="1">
+										<entry name="ID" inpkey="1"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\..\FORMATS\UBL-2.1\xsd\maindoc\UBL-Invoice-2.1.xsd" instanceroot="{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice" outputinstance="..\..\..\FORMATS\UBL-2.1\xsd\maindoc\UBL-Invoice-2.1.xml"/>
+					</data>
+				</component>
 				<component name="410016323" library="text" uid="2" kind="16">
-					<view rbx="329" rby="517"/>
+					<view ltx="3" lty="-72" rbx="332" rby="445"/>
 					<data>
 						<root>
 							<header>
@@ -27,22 +50,86 @@
 															<entry name="ENUMFA" outkey="3"/>
 															<entry name="Split Once" expanded="1">
 																<entry name="Split One" expanded="1">
-																	<entry name="EFACDT" outkey="4"/>
+																	<entry name="Split Once" expanded="1">
+																		<entry name="Split Once" expanded="1">
+																			<entry name="Split Once" expanded="1">
+																				<entry name="Split Once" expanded="1">
+																					<entry name="Split Once" expanded="1">
+																						<entry name="Split Once" expanded="1">
+																							<entry name="Split Once" expanded="1">
+																								<entry name="Split Once" expanded="1">
+																									<entry name="Split Once" expanded="1">
+																										<entry name="Split Once" expanded="1">
+																											<entry name="Split Once" expanded="1">
+																												<entry name="Split Once" expanded="1">
+																													<entry name="Split Once" expanded="1">
+																														<entry name="Split Once" expanded="1">
+																															<entry name="Split Once" expanded="1">
+																																<entry name="Split Once" expanded="1">
+																																	<entry name="Split Once" expanded="1">
+																																		<entry name="Split Once" expanded="1">
+																																			<entry name="Split Once" expanded="1">
+																																				<entry name="Split Once" expanded="1">
+																																					<entry name="Split Once" expanded="1">
+																																						<entry name="Split Once" expanded="1">
+																																							<entry name="Split Once" expanded="1">
+																																								<entry name="Split Once" expanded="1">
+																																									<entry name="Split Once" expanded="1">
+																																										<entry name="Split Once" expanded="1"/>
+																																									</entry>
+																																								</entry>
+																																							</entry>
+																																						</entry>
+																																					</entry>
+																																				</entry>
+																																			</entry>
+																																		</entry>
+																																	</entry>
+																																</entry>
+																															</entry>
+																														</entry>
+																													</entry>
+																												</entry>
+																											</entry>
+																										</entry>
+																									</entry>
+																								</entry>
+																							</entry>
+																						</entry>
+																					</entry>
+																				</entry>
+																			</entry>
+																		</entry>
+																	</entry>
 																</entry>
 															</entry>
 														</entry>
 													</entry>
 												</entry>
 												<entry name="Split once" expanded="1">
-													<entry name="CCODER" expanded="1">
-														<entry name="CNUMFA" expanded="1"/>
+													<entry name="Split once" expanded="1">
+														<entry name="CCODER" expanded="1"/>
+														<entry name="Split once" expanded="1">
+															<entry name="Split Once" expanded="1">
+																<entry name="Split Once" expanded="1">
+																	<entry name="Split Once" expanded="1">
+																		<entry name="Split Once" expanded="1"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
 													</entry>
 													<entry name="Split once" expanded="1">
-														<entry name="CCODER" expanded="1">
-															<entry name="CNUMFA" expanded="1"/>
-														</entry>
 														<entry name="Split once" expanded="1">
-															<entry name="Split once" expanded="1"/>
+															<entry name="Split once" expanded="1">
+																<entry name="Split once" expanded="1">
+																	<entry name="CORENR" expanded="1">
+																		<entry name="CORFAC" expanded="1">
+																			<entry name="CORLIG" expanded="1"/>
+																		</entry>
+																	</entry>
+																</entry>
+															</entry>
 														</entry>
 													</entry>
 												</entry>
@@ -55,68 +142,17 @@
 						<text type="txt" encoding="52" byteorder="1" byteordermark="0" config="410016323.mft" inputinstance="410016323.txt"/>
 					</data>
 				</component>
-				<component name="UBL-Invoice-2.1" library="xml" uid="4" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="669" rbx="969" rby="500"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace uid="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"/>
-									<namespace uid="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
-									<namespace uid="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="3" expanded="1">
-								<entry name="document" ns="3" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="Invoice" ns="2" expanded="1">
-										<entry name="UBLExtensions" expanded="1"/>
-										<entry name="ID" ns="1" inpkey="1">
-											<inputnodefunctions>
-												<rule applyto="self">
-													<default value="12115118"/>
-												</rule>
-											</inputnodefunctions>
-										</entry>
-										<entry name="IssueDate" ns="1" inpkey="2"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="..\..\..\FORMATS\UBL-2.1\xsd\maindoc\UBL-Invoice-2.1.xsd" instanceroot="{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice" outputinstance="..\..\..\FORMATS\UBL-2.1\xsd\maindoc\UBL-Invoice-2.1.xml"/>
-					</data>
-				</component>
-				<component name="parse-date" library="core" uid="6" kind="5">
-					<sources>
-						<datapoint pos="0" key="5"/>
-						<datapoint pos="1" key="6"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="7"/>
-					</targets>
-					<view ltx="478" lty="219" rbx="554" rby="271"/>
-				</component>
-				<component name="frmt" library="core" uid="7" kind="6">
-					<sources>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="8"/>
-					</targets>
-					<view ltx="370" lty="347" rbx="438" rby="383"/>
-					<data>
-						<input datatype="string" previewvalue="[Y,4-4][M,2-2][D,2-2]" usepreviewvalue="1"/>
-						<parameter usageKind="input" name="frmt"/>
-					</data>
-				</component>
 			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="1"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
 		</structure>
-		<connections>
-			<edge from="3" to="1"/>
-			<edge from="7" to="2"/>
-			<edge from="4" to="5"/>
-			<edge from="8" to="6"/>
-		</connections>
 	</component>
 </mapping>

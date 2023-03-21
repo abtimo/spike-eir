@@ -60,7 +60,7 @@
 																<Connection>
 																	<Store Type="string" TrimCharSet="%20">
 																		<Version/>
-																		<Name Value="EDESTI1"/>
+																		<Name Value="EDESTI"/>
 																		<Connections>
 																			<Connection/>
 																		</Connections>
@@ -275,10 +275,12 @@
 																																																<Version/>
 																																																<Upper Offset="1"/>
 																																																<Lower Offset="3"/>
-																																																<Name Value="EFDTTC"/>
+																																																<Name Value="Split%20Once"/>
 																																																<Connections>
 																																																	<Connection>
-																																																		<Null>
+																																																		<Store Type="string" TrimCharSet="%20">
+																																																			<Version/>
+																																																			<Name Value="EFDTTC"/>
 																																																			<Connections>
 																																																				<Connection/>
 																																																			</Connections>
@@ -286,7 +288,7 @@
 																																																				<OpenState Property="1" Preview="1" Connector="1"/>
 																																																				<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																			</XData>
-																																																		</Null>
+																																																		</Store>
 																																																	</Connection>
 																																																	<Connection>
 																																																		<SplitSingle Orientation="Vertical">
@@ -1494,10 +1496,12 @@
 																																	<Version/>
 																																	<Upper Offset="9"/>
 																																	<Lower Offset="9"/>
-																																	<Name Value="CTICPO"/>
+																																	<Name Value="Split%20Once"/>
 																																	<Connections>
 																																		<Connection>
-																																			<Null>
+																																			<Store Type="string" TrimCharSet="%20">
+																																				<Version/>
+																																				<Name Value="CTICPO"/>
 																																				<Connections>
 																																					<Connection/>
 																																				</Connections>
@@ -1505,17 +1509,19 @@
 																																					<OpenState Property="1" Preview="1" Connector="1"/>
 																																					<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																				</XData>
-																																			</Null>
+																																			</Store>
 																																		</Connection>
 																																		<Connection>
 																																			<SplitSingle Orientation="Vertical">
 																																				<Version/>
 																																				<Upper Offset="35"/>
 																																				<Lower Offset="35"/>
-																																				<Name Value="CTIVIL"/>
+																																				<Name Value="Split%20Once"/>
 																																				<Connections>
 																																					<Connection>
-																																						<Null>
+																																						<Store Type="string" TrimCharSet="%20">
+																																							<Version/>
+																																							<Name Value="CTIVIL"/>
 																																							<Connections>
 																																								<Connection/>
 																																							</Connections>
@@ -1523,17 +1529,19 @@
 																																								<OpenState Property="1" Preview="1" Connector="1"/>
 																																								<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																							</XData>
-																																						</Null>
+																																						</Store>
 																																					</Connection>
 																																					<Connection>
 																																						<SplitSingle Orientation="Vertical">
 																																							<Version/>
 																																							<Upper Offset="3"/>
 																																							<Lower Offset="3"/>
-																																							<Name Value="CTIPAY"/>
+																																							<Name Value="Split%20Once"/>
 																																							<Connections>
 																																								<Connection>
-																																									<Null>
+																																									<Store Type="string" TrimCharSet="%20">
+																																										<Version/>
+																																										<Name Value="CTIPAY"/>
 																																										<Connections>
 																																											<Connection/>
 																																										</Connections>
@@ -1541,17 +1549,19 @@
 																																											<OpenState Property="1" Preview="1" Connector="1"/>
 																																											<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																										</XData>
-																																									</Null>
+																																									</Store>
 																																								</Connection>
 																																								<Connection>
 																																									<SplitSingle Orientation="Vertical">
 																																										<Version/>
 																																										<Upper Offset="10"/>
 																																										<Lower Offset="10"/>
-																																										<Name Value="CTICHR"/>
+																																										<Name Value="Split%20Once"/>
 																																										<Connections>
 																																											<Connection>
-																																												<Null>
+																																												<Store Type="string" TrimCharSet="%20">
+																																													<Version/>
+																																													<Name Value="CTICHR"/>
 																																													<Connections>
 																																														<Connection/>
 																																													</Connections>
@@ -1559,17 +1569,19 @@
 																																														<OpenState Property="1" Preview="1" Connector="1"/>
 																																														<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																													</XData>
-																																												</Null>
+																																												</Store>
 																																											</Connection>
 																																											<Connection>
 																																												<SplitSingle Orientation="Vertical">
 																																													<Version/>
 																																													<Upper Offset="20"/>
 																																													<Lower Offset="20"/>
-																																													<Name Value="CTIVAT"/>
+																																													<Name Value="Split%20Once"/>
 																																													<Connections>
 																																														<Connection>
-																																															<Null>
+																																															<Store Type="string" TrimCharSet="%20">
+																																																<Version/>
+																																																<Name Value="CTIVAT"/>
 																																																<Connections>
 																																																	<Connection/>
 																																																</Connections>
@@ -1577,17 +1589,19 @@
 																																																	<OpenState Property="1" Preview="1" Connector="1"/>
 																																																	<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																</XData>
-																																															</Null>
+																																															</Store>
 																																														</Connection>
 																																														<Connection>
 																																															<SplitSingle Orientation="Vertical">
 																																																<Version/>
 																																																<Upper Offset="35"/>
 																																																<Lower Offset="35"/>
-																																																<Name Value="CTIETC"/>
+																																																<Name Value="Split%20Once"/>
 																																																<Connections>
 																																																	<Connection>
-																																																		<Null>
+																																																		<Store Type="string" TrimCharSet="%20">
+																																																			<Version/>
+																																																			<Name Value="CTIETC"/>
 																																																			<Connections>
 																																																				<Connection/>
 																																																			</Connections>
@@ -1595,17 +1609,19 @@
 																																																				<OpenState Property="1" Preview="1" Connector="1"/>
 																																																				<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																			</XData>
-																																																		</Null>
+																																																		</Store>
 																																																	</Connection>
 																																																	<Connection>
 																																																		<SplitSingle Orientation="Vertical">
 																																																			<Version/>
 																																																			<Upper Offset="35"/>
 																																																			<Lower Offset="35"/>
-																																																			<Name Value="CTISRV"/>
+																																																			<Name Value="Split%20Once"/>
 																																																			<Connections>
 																																																				<Connection>
-																																																					<Null>
+																																																					<Store Type="string" TrimCharSet="%20">
+																																																						<Version/>
+																																																						<Name Value="CTISRV"/>
 																																																						<Connections>
 																																																							<Connection/>
 																																																						</Connections>
@@ -1613,17 +1629,19 @@
 																																																							<OpenState Property="1" Preview="1" Connector="1"/>
 																																																							<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																						</XData>
-																																																					</Null>
+																																																					</Store>
 																																																				</Connection>
 																																																				<Connection>
 																																																					<SplitSingle Orientation="Vertical">
 																																																						<Version/>
 																																																						<Upper Offset="20"/>
 																																																						<Lower Offset="20"/>
-																																																						<Name Value="CTITEL"/>
+																																																						<Name Value="Split%20Once"/>
 																																																						<Connections>
 																																																							<Connection>
-																																																								<Null>
+																																																								<Store Type="string" TrimCharSet="%20">
+																																																									<Version/>
+																																																									<Name Value="CTITEL"/>
 																																																									<Connections>
 																																																										<Connection/>
 																																																									</Connections>
@@ -1631,17 +1649,19 @@
 																																																										<OpenState Property="1" Preview="1" Connector="1"/>
 																																																										<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																									</XData>
-																																																								</Null>
+																																																								</Store>
 																																																							</Connection>
 																																																							<Connection>
 																																																								<SplitSingle Orientation="Vertical">
 																																																									<Version/>
 																																																									<Upper Offset="9"/>
 																																																									<Lower Offset="9"/>
-																																																									<Name Value="CTIREN"/>
+																																																									<Name Value="Split%20Once"/>
 																																																									<Connections>
 																																																										<Connection>
-																																																											<Null>
+																																																											<Store Type="string" TrimCharSet="%20">
+																																																												<Version/>
+																																																												<Name Value="CTIREN"/>
 																																																												<Connections>
 																																																													<Connection/>
 																																																												</Connections>
@@ -1649,17 +1669,19 @@
 																																																													<OpenState Property="1" Preview="1" Connector="1"/>
 																																																													<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																												</XData>
-																																																											</Null>
+																																																											</Store>
 																																																										</Connection>
 																																																										<Connection>
 																																																											<SplitSingle Orientation="Vertical">
 																																																												<Version/>
 																																																												<Upper Offset="5"/>
 																																																												<Lower Offset="5"/>
-																																																												<Name Value="CTIRET"/>
+																																																												<Name Value="Split%20Once"/>
 																																																												<Connections>
 																																																													<Connection>
-																																																														<Null>
+																																																														<Store Type="string" TrimCharSet="%20">
+																																																															<Version/>
+																																																															<Name Value="CTIRET"/>
 																																																															<Connections>
 																																																																<Connection/>
 																																																															</Connections>
@@ -1667,17 +1689,19 @@
 																																																																<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																															</XData>
-																																																														</Null>
+																																																														</Store>
 																																																													</Connection>
 																																																													<Connection>
 																																																														<SplitSingle Orientation="Vertical">
 																																																															<Version/>
 																																																															<Upper Offset="3"/>
 																																																															<Lower Offset="3"/>
-																																																															<Name Value="CTIPROV"/>
+																																																															<Name Value="Split%20Once"/>
 																																																															<Connections>
 																																																																<Connection>
-																																																																	<Null>
+																																																																	<Store Type="string" TrimCharSet="%20">
+																																																																		<Version/>
+																																																																		<Name Value="CTIPROV"/>
 																																																																		<Connections>
 																																																																			<Connection/>
 																																																																		</Connections>
@@ -1685,17 +1709,19 @@
 																																																																			<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																			<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																		</XData>
-																																																																	</Null>
+																																																																	</Store>
 																																																																</Connection>
 																																																																<Connection>
 																																																																	<SplitSingle Orientation="Vertical">
 																																																																		<Version/>
 																																																																		<Upper Offset="1"/>
 																																																																		<Lower Offset="10"/>
-																																																																		<Name Value="CTICPTN"/>
+																																																																		<Name Value="Split%20Once"/>
 																																																																		<Connections>
 																																																																			<Connection>
-																																																																				<Null>
+																																																																				<Store Type="string" TrimCharSet="%20">
+																																																																					<Version/>
+																																																																					<Name Value="CTICPTN"/>
 																																																																					<Connections>
 																																																																						<Connection/>
 																																																																					</Connections>
@@ -1703,17 +1729,19 @@
 																																																																						<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																						<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																					</XData>
-																																																																				</Null>
+																																																																				</Store>
 																																																																			</Connection>
 																																																																			<Connection>
 																																																																				<SplitSingle Orientation="Vertical">
 																																																																					<Version/>
 																																																																					<Upper Offset="10"/>
 																																																																					<Lower Offset="10"/>
-																																																																					<Name Value="CTIEICI"/>
+																																																																					<Name Value="Split%20Once"/>
 																																																																					<Connections>
 																																																																						<Connection>
-																																																																							<Null>
+																																																																							<Store Type="string" TrimCharSet="%20">
+																																																																								<Version/>
+																																																																								<Name Value="CTIEICI"/>
 																																																																								<Connections>
 																																																																									<Connection/>
 																																																																								</Connections>
@@ -1721,17 +1749,19 @@
 																																																																									<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																									<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																								</XData>
-																																																																							</Null>
+																																																																							</Store>
 																																																																						</Connection>
 																																																																						<Connection>
 																																																																							<SplitSingle Orientation="Vertical">
 																																																																								<Version/>
 																																																																								<Upper Offset="1"/>
 																																																																								<Lower Offset="10"/>
-																																																																								<Name Value="CTIBASLC"/>
+																																																																								<Name Value="Split%20Once"/>
 																																																																								<Connections>
 																																																																									<Connection>
-																																																																										<Null>
+																																																																										<Store Type="string" TrimCharSet="%20">
+																																																																											<Version/>
+																																																																											<Name Value="CTIBASLC"/>
 																																																																											<Connections>
 																																																																												<Connection/>
 																																																																											</Connections>
@@ -1739,17 +1769,19 @@
 																																																																												<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																												<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																											</XData>
-																																																																										</Null>
+																																																																										</Store>
 																																																																									</Connection>
 																																																																									<Connection>
 																																																																										<SplitSingle Orientation="Vertical">
 																																																																											<Version/>
 																																																																											<Upper Offset="1"/>
 																																																																											<Lower Offset="10"/>
-																																																																											<Name Value="CTISTINC"/>
+																																																																											<Name Value="Split%20Once"/>
 																																																																											<Connections>
 																																																																												<Connection>
-																																																																													<Null>
+																																																																													<Store Type="string" TrimCharSet="%20">
+																																																																														<Version/>
+																																																																														<Name Value="CTISTINC"/>
 																																																																														<Connections>
 																																																																															<Connection/>
 																																																																														</Connections>
@@ -1757,17 +1789,19 @@
 																																																																															<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																															<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																														</XData>
-																																																																													</Null>
+																																																																													</Store>
 																																																																												</Connection>
 																																																																												<Connection>
 																																																																													<SplitSingle Orientation="Vertical">
 																																																																														<Version/>
 																																																																														<Upper Offset="1"/>
 																																																																														<Lower Offset="10"/>
-																																																																														<Name Value="CTIBRCH"/>
+																																																																														<Name Value="Split%20Once"/>
 																																																																														<Connections>
 																																																																															<Connection>
-																																																																																<Null>
+																																																																																<Store Type="string" TrimCharSet="%20">
+																																																																																	<Version/>
+																																																																																	<Name Value="CTIBRCH"/>
 																																																																																	<Connections>
 																																																																																		<Connection/>
 																																																																																	</Connections>
@@ -1775,17 +1809,19 @@
 																																																																																		<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																		<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																	</XData>
-																																																																																</Null>
+																																																																																</Store>
 																																																																															</Connection>
 																																																																															<Connection>
 																																																																																<SplitSingle Orientation="Vertical">
 																																																																																	<Version/>
 																																																																																	<Upper Offset="1"/>
 																																																																																	<Lower Offset="1"/>
-																																																																																	<Name Value="CTICEE"/>
+																																																																																	<Name Value="Split%20Once"/>
 																																																																																	<Connections>
 																																																																																		<Connection>
-																																																																																			<Null>
+																																																																																			<Store Type="string" TrimCharSet="%20">
+																																																																																				<Version/>
+																																																																																				<Name Value="CTICEE"/>
 																																																																																				<Connections>
 																																																																																					<Connection/>
 																																																																																				</Connections>
@@ -1793,17 +1829,19 @@
 																																																																																					<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																					<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																				</XData>
-																																																																																			</Null>
+																																																																																			</Store>
 																																																																																		</Connection>
 																																																																																		<Connection>
 																																																																																			<SplitSingle Orientation="Vertical">
 																																																																																				<Version/>
 																																																																																				<Upper Offset="10"/>
 																																																																																				<Lower Offset="18"/>
-																																																																																				<Name Value="CTISTATUT"/>
+																																																																																				<Name Value="Split%20Once"/>
 																																																																																				<Connections>
 																																																																																					<Connection>
-																																																																																						<Null>
+																																																																																						<Store Type="string" TrimCharSet="%20">
+																																																																																							<Version/>
+																																																																																							<Name Value="CTISTATUT"/>
 																																																																																							<Connections>
 																																																																																								<Connection/>
 																																																																																							</Connections>
@@ -1811,17 +1849,19 @@
 																																																																																								<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																								<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																							</XData>
-																																																																																						</Null>
+																																																																																						</Store>
 																																																																																					</Connection>
 																																																																																					<Connection>
 																																																																																						<SplitSingle Orientation="Vertical">
 																																																																																							<Version/>
 																																																																																							<Upper Offset="35"/>
 																																																																																							<Lower Offset="40"/>
-																																																																																							<Name Value="CTICAPITAL"/>
+																																																																																							<Name Value="Split%20Once"/>
 																																																																																							<Connections>
 																																																																																								<Connection>
-																																																																																									<Null>
+																																																																																									<Store Type="string" TrimCharSet="%20">
+																																																																																										<Version/>
+																																																																																										<Name Value="CTICAPITAL"/>
 																																																																																										<Connections>
 																																																																																											<Connection/>
 																																																																																										</Connections>
@@ -1829,17 +1869,19 @@
 																																																																																											<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																											<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																										</XData>
-																																																																																									</Null>
+																																																																																									</Store>
 																																																																																								</Connection>
 																																																																																								<Connection>
 																																																																																									<SplitSingle Orientation="Vertical">
 																																																																																										<Version/>
 																																																																																										<Upper Offset="1"/>
 																																																																																										<Lower Offset="22"/>
-																																																																																										<Name Value="CFILLE"/>
+																																																																																										<Name Value="Split%20Once"/>
 																																																																																										<Connections>
 																																																																																											<Connection>
-																																																																																												<Null>
+																																																																																												<Store Type="string" TrimCharSet="%20">
+																																																																																													<Version/>
+																																																																																													<Name Value="CFILLE"/>
 																																																																																													<Connections>
 																																																																																														<Connection/>
 																																																																																													</Connections>
@@ -1847,17 +1889,19 @@
 																																																																																														<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																														<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																													</XData>
-																																																																																												</Null>
+																																																																																												</Store>
 																																																																																											</Connection>
 																																																																																											<Connection>
 																																																																																												<SplitSingle Orientation="Vertical">
 																																																																																													<Version/>
 																																																																																													<Upper Offset="1"/>
 																																																																																													<Lower Offset="1"/>
-																																																																																													<Name Value="CFF02"/>
+																																																																																													<Name Value="Split%20Once"/>
 																																																																																													<Connections>
 																																																																																														<Connection>
-																																																																																															<Null>
+																																																																																															<Store Type="string" TrimCharSet="%20">
+																																																																																																<Version/>
+																																																																																																<Name Value="CFF02"/>
 																																																																																																<Connections>
 																																																																																																	<Connection/>
 																																																																																																</Connections>
@@ -1865,10 +1909,10 @@
 																																																																																																	<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																																	<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																																</XData>
-																																																																																															</Null>
+																																																																																															</Store>
 																																																																																														</Connection>
 																																																																																														<Connection>
-																																																																																															<Null>
+																																																																																															<Ignore>
 																																																																																																<Connections>
 																																																																																																	<Connection/>
 																																																																																																</Connections>
@@ -1876,7 +1920,7 @@
 																																																																																																	<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																																	<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																																</XData>
-																																																																																															</Null>
+																																																																																															</Ignore>
 																																																																																														</Connection>
 																																																																																													</Connections>
 																																																																																													<XData>
@@ -2079,10 +2123,12 @@
 																		<Version/>
 																		<Upper Offset="1"/>
 																		<Lower Offset="3"/>
-																		<Name Value="CCODER"/>
+																		<Name Value="Split%20once2"/>
 																		<Connections>
 																			<Connection>
-																				<Null>
+																				<Store Type="string" TrimCharSet="%20">
+																					<Version/>
+																					<Name Value="CCODER"/>
 																					<Connections>
 																						<Connection/>
 																					</Connections>
@@ -2090,17 +2136,19 @@
 																						<OpenState Property="1" Preview="1" Connector="1"/>
 																						<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																					</XData>
-																				</Null>
+																				</Store>
 																			</Connection>
 																			<Connection>
 																				<SplitSingle Orientation="Vertical">
 																					<Version/>
 																					<Upper Offset="1"/>
 																					<Lower Offset="35"/>
-																					<Name Value="CNUMFA"/>
+																					<Name Value="Split%20once"/>
 																					<Connections>
 																						<Connection>
-																							<Null>
+																							<Store Type="string" TrimCharSet="%20">
+																								<Version/>
+																								<Name Value="CNUMFA"/>
 																								<Connections>
 																									<Connection/>
 																								</Connections>
@@ -2108,17 +2156,19 @@
 																									<OpenState Property="1" Preview="1" Connector="1"/>
 																									<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																								</XData>
-																							</Null>
+																							</Store>
 																						</Connection>
 																						<Connection>
 																							<SplitSingle Orientation="Vertical">
 																								<Version/>
 																								<Upper Offset="3"/>
 																								<Lower Offset="3"/>
-																								<Name Value="CTYCLI"/>
+																								<Name Value="Split%20once"/>
 																								<Connections>
 																									<Connection>
-																										<Null>
+																										<Store Type="string" TrimCharSet="%20">
+																											<Version/>
+																											<Name Value="CTYCLI"/>
 																											<Connections>
 																												<Connection/>
 																											</Connections>
@@ -2126,17 +2176,19 @@
 																												<OpenState Property="1" Preview="1" Connector="1"/>
 																												<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																											</XData>
-																										</Null>
+																										</Store>
 																									</Connection>
 																									<Connection>
 																										<SplitSingle Orientation="Vertical">
 																											<Version/>
 																											<Upper Offset="1"/>
 																											<Lower Offset="35"/>
-																											<Name Value="CTINOM"/>
+																											<Name Value="Split%20once"/>
 																											<Connections>
 																												<Connection>
-																													<Null>
+																													<Store Type="string" TrimCharSet="%20">
+																														<Version/>
+																														<Name Value="CTINOM"/>
 																														<Connections>
 																															<Connection/>
 																														</Connections>
@@ -2144,17 +2196,19 @@
 																															<OpenState Property="1" Preview="1" Connector="1"/>
 																															<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																														</XData>
-																													</Null>
+																													</Store>
 																												</Connection>
 																												<Connection>
 																													<SplitSingle Orientation="Vertical">
 																														<Version/>
 																														<Upper Offset="1"/>
 																														<Lower Offset="35"/>
-																														<Name Value="CTIAD1"/>
+																														<Name Value="Split%20once"/>
 																														<Connections>
 																															<Connection>
-																																<Null>
+																																<Store Type="string" TrimCharSet="%20">
+																																	<Version/>
+																																	<Name Value="CTIAD1"/>
 																																	<Connections>
 																																		<Connection/>
 																																	</Connections>
@@ -2162,17 +2216,19 @@
 																																		<OpenState Property="1" Preview="1" Connector="1"/>
 																																		<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																	</XData>
-																																</Null>
+																																</Store>
 																															</Connection>
 																															<Connection>
 																																<SplitSingle Orientation="Vertical">
 																																	<Version/>
 																																	<Upper Offset="1"/>
 																																	<Lower Offset="35"/>
-																																	<Name Value="CTIAD2"/>
+																																	<Name Value="Split%20once"/>
 																																	<Connections>
 																																		<Connection>
-																																			<Null>
+																																			<Store Type="string" TrimCharSet="%20">
+																																				<Version/>
+																																				<Name Value="CTIAD2"/>
 																																				<Connections>
 																																					<Connection/>
 																																				</Connections>
@@ -2180,17 +2236,19 @@
 																																					<OpenState Property="1" Preview="1" Connector="1"/>
 																																					<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																				</XData>
-																																			</Null>
+																																			</Store>
 																																		</Connection>
 																																		<Connection>
 																																			<SplitSingle Orientation="Vertical">
 																																				<Version/>
 																																				<Upper Offset="9"/>
 																																				<Lower Offset="9"/>
-																																				<Name Value="CTICPO"/>
+																																				<Name Value="Split%20once"/>
 																																				<Connections>
 																																					<Connection>
-																																						<Null>
+																																						<Store Type="string" TrimCharSet="%20">
+																																							<Version/>
+																																							<Name Value="CTICPO"/>
 																																							<Connections>
 																																								<Connection/>
 																																							</Connections>
@@ -2198,17 +2256,19 @@
 																																								<OpenState Property="1" Preview="1" Connector="1"/>
 																																								<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																							</XData>
-																																						</Null>
+																																						</Store>
 																																					</Connection>
 																																					<Connection>
 																																						<SplitSingle Orientation="Vertical">
 																																							<Version/>
 																																							<Upper Offset="35"/>
 																																							<Lower Offset="35"/>
-																																							<Name Value="CTIVIL"/>
+																																							<Name Value="Split%20once"/>
 																																							<Connections>
 																																								<Connection>
-																																									<Null>
+																																									<Store Type="string" TrimCharSet="%20">
+																																										<Version/>
+																																										<Name Value="CTIVIL"/>
 																																										<Connections>
 																																											<Connection/>
 																																										</Connections>
@@ -2216,17 +2276,19 @@
 																																											<OpenState Property="1" Preview="1" Connector="1"/>
 																																											<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																										</XData>
-																																									</Null>
+																																									</Store>
 																																								</Connection>
 																																								<Connection>
 																																									<SplitSingle Orientation="Vertical">
 																																										<Version/>
 																																										<Upper Offset="3"/>
 																																										<Lower Offset="3"/>
-																																										<Name Value="CTIPAY"/>
+																																										<Name Value="Split%20once"/>
 																																										<Connections>
 																																											<Connection>
-																																												<Null>
+																																												<Store Type="string" TrimCharSet="%20">
+																																													<Version/>
+																																													<Name Value="CTIPAY"/>
 																																													<Connections>
 																																														<Connection/>
 																																													</Connections>
@@ -2234,17 +2296,19 @@
 																																														<OpenState Property="1" Preview="1" Connector="1"/>
 																																														<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																													</XData>
-																																												</Null>
+																																												</Store>
 																																											</Connection>
 																																											<Connection>
 																																												<SplitSingle Orientation="Vertical">
 																																													<Version/>
 																																													<Upper Offset="1"/>
 																																													<Lower Offset="10"/>
-																																													<Name Value="CTICHR"/>
+																																													<Name Value="Split%20once"/>
 																																													<Connections>
 																																														<Connection>
-																																															<Null>
+																																															<Store Type="string" TrimCharSet="%20">
+																																																<Version/>
+																																																<Name Value="CTICHR"/>
 																																																<Connections>
 																																																	<Connection/>
 																																																</Connections>
@@ -2252,17 +2316,19 @@
 																																																	<OpenState Property="1" Preview="1" Connector="1"/>
 																																																	<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																</XData>
-																																															</Null>
+																																															</Store>
 																																														</Connection>
 																																														<Connection>
 																																															<SplitSingle Orientation="Vertical">
 																																																<Version/>
 																																																<Upper Offset="1"/>
 																																																<Lower Offset="20"/>
-																																																<Name Value="CTIVAT"/>
+																																																<Name Value="Split%20once"/>
 																																																<Connections>
 																																																	<Connection>
-																																																		<Null>
+																																																		<Store Type="string" TrimCharSet="%20">
+																																																			<Version/>
+																																																			<Name Value="CTIVAT"/>
 																																																			<Connections>
 																																																				<Connection/>
 																																																			</Connections>
@@ -2270,17 +2336,19 @@
 																																																				<OpenState Property="1" Preview="1" Connector="1"/>
 																																																				<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																			</XData>
-																																																		</Null>
+																																																		</Store>
 																																																	</Connection>
 																																																	<Connection>
 																																																		<SplitSingle Orientation="Vertical">
 																																																			<Version/>
 																																																			<Upper Offset="35"/>
 																																																			<Lower Offset="35"/>
-																																																			<Name Value="CTIETC"/>
+																																																			<Name Value="Split%20once"/>
 																																																			<Connections>
 																																																				<Connection>
-																																																					<Null>
+																																																					<Store Type="string" TrimCharSet="%20">
+																																																						<Version/>
+																																																						<Name Value="CTIETC"/>
 																																																						<Connections>
 																																																							<Connection/>
 																																																						</Connections>
@@ -2288,17 +2356,19 @@
 																																																							<OpenState Property="1" Preview="1" Connector="1"/>
 																																																							<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																						</XData>
-																																																					</Null>
+																																																					</Store>
 																																																				</Connection>
 																																																				<Connection>
 																																																					<SplitSingle Orientation="Vertical">
 																																																						<Version/>
 																																																						<Upper Offset="1"/>
 																																																						<Lower Offset="35"/>
-																																																						<Name Value="CTISRV"/>
+																																																						<Name Value="Split%20once"/>
 																																																						<Connections>
 																																																							<Connection>
-																																																								<Null>
+																																																								<Store Type="string" TrimCharSet="%20">
+																																																									<Version/>
+																																																									<Name Value="CTISRV"/>
 																																																									<Connections>
 																																																										<Connection/>
 																																																									</Connections>
@@ -2306,17 +2376,19 @@
 																																																										<OpenState Property="1" Preview="1" Connector="1"/>
 																																																										<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																									</XData>
-																																																								</Null>
+																																																								</Store>
 																																																							</Connection>
 																																																							<Connection>
 																																																								<SplitSingle Orientation="Vertical">
 																																																									<Version/>
 																																																									<Upper Offset="1"/>
 																																																									<Lower Offset="20"/>
-																																																									<Name Value="CTITEL"/>
+																																																									<Name Value="Split%20once"/>
 																																																									<Connections>
 																																																										<Connection>
-																																																											<Null>
+																																																											<Store Type="string" TrimCharSet="%20">
+																																																												<Version/>
+																																																												<Name Value="CTITEL"/>
 																																																												<Connections>
 																																																													<Connection/>
 																																																												</Connections>
@@ -2324,17 +2396,19 @@
 																																																													<OpenState Property="1" Preview="1" Connector="1"/>
 																																																													<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																												</XData>
-																																																											</Null>
+																																																											</Store>
 																																																										</Connection>
 																																																										<Connection>
 																																																											<SplitSingle Orientation="Vertical">
 																																																												<Version/>
 																																																												<Upper Offset="9"/>
 																																																												<Lower Offset="9"/>
-																																																												<Name Value="CTIREN"/>
+																																																												<Name Value="Split%20once"/>
 																																																												<Connections>
 																																																													<Connection>
-																																																														<Null>
+																																																														<Store Type="string" TrimCharSet="%20">
+																																																															<Version/>
+																																																															<Name Value="CTIREN"/>
 																																																															<Connections>
 																																																																<Connection/>
 																																																															</Connections>
@@ -2342,17 +2416,19 @@
 																																																																<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																															</XData>
-																																																														</Null>
+																																																														</Store>
 																																																													</Connection>
 																																																													<Connection>
 																																																														<SplitSingle Orientation="Vertical">
 																																																															<Version/>
 																																																															<Upper Offset="1"/>
 																																																															<Lower Offset="5"/>
-																																																															<Name Value="CTIRET"/>
+																																																															<Name Value="Split%20once"/>
 																																																															<Connections>
 																																																																<Connection>
-																																																																	<Null>
+																																																																	<Store Type="string" TrimCharSet="%20">
+																																																																		<Version/>
+																																																																		<Name Value="CTIRET"/>
 																																																																		<Connections>
 																																																																			<Connection/>
 																																																																		</Connections>
@@ -2360,17 +2436,19 @@
 																																																																			<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																			<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																		</XData>
-																																																																	</Null>
+																																																																	</Store>
 																																																																</Connection>
 																																																																<Connection>
 																																																																	<SplitSingle Orientation="Vertical">
 																																																																		<Version/>
 																																																																		<Upper Offset="3"/>
 																																																																		<Lower Offset="3"/>
-																																																																		<Name Value="CTIPROV"/>
+																																																																		<Name Value="Split%20once"/>
 																																																																		<Connections>
 																																																																			<Connection>
-																																																																				<Null>
+																																																																				<Store Type="string" TrimCharSet="%20">
+																																																																					<Version/>
+																																																																					<Name Value="CTIPROV"/>
 																																																																					<Connections>
 																																																																						<Connection/>
 																																																																					</Connections>
@@ -2378,17 +2456,19 @@
 																																																																						<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																						<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																					</XData>
-																																																																				</Null>
+																																																																				</Store>
 																																																																			</Connection>
 																																																																			<Connection>
 																																																																				<SplitSingle Orientation="Vertical">
 																																																																					<Version/>
 																																																																					<Upper Offset="1"/>
 																																																																					<Lower Offset="10"/>
-																																																																					<Name Value="CTICPTN"/>
+																																																																					<Name Value="Split%20once"/>
 																																																																					<Connections>
 																																																																						<Connection>
-																																																																							<Null>
+																																																																							<Store Type="string" TrimCharSet="%20">
+																																																																								<Version/>
+																																																																								<Name Value="CTICPTN"/>
 																																																																								<Connections>
 																																																																									<Connection/>
 																																																																								</Connections>
@@ -2396,17 +2476,19 @@
 																																																																									<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																									<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																								</XData>
-																																																																							</Null>
+																																																																							</Store>
 																																																																						</Connection>
 																																																																						<Connection>
 																																																																							<SplitSingle Orientation="Vertical">
 																																																																								<Version/>
 																																																																								<Upper Offset="10"/>
 																																																																								<Lower Offset="10"/>
-																																																																								<Name Value="CTIEICI"/>
+																																																																								<Name Value="Split%20once"/>
 																																																																								<Connections>
 																																																																									<Connection>
-																																																																										<Null>
+																																																																										<Store Type="string" TrimCharSet="%20">
+																																																																											<Version/>
+																																																																											<Name Value="CTIEICI"/>
 																																																																											<Connections>
 																																																																												<Connection/>
 																																																																											</Connections>
@@ -2414,17 +2496,19 @@
 																																																																												<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																												<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																											</XData>
-																																																																										</Null>
+																																																																										</Store>
 																																																																									</Connection>
 																																																																									<Connection>
 																																																																										<SplitSingle Orientation="Vertical">
 																																																																											<Version/>
 																																																																											<Upper Offset="10"/>
 																																																																											<Lower Offset="10"/>
-																																																																											<Name Value="CTIBASLC"/>
+																																																																											<Name Value="Split%20once"/>
 																																																																											<Connections>
 																																																																												<Connection>
-																																																																													<Null>
+																																																																													<Store Type="string" TrimCharSet="%20">
+																																																																														<Version/>
+																																																																														<Name Value="CTIBASLC"/>
 																																																																														<Connections>
 																																																																															<Connection/>
 																																																																														</Connections>
@@ -2432,17 +2516,19 @@
 																																																																															<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																															<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																														</XData>
-																																																																													</Null>
+																																																																													</Store>
 																																																																												</Connection>
 																																																																												<Connection>
 																																																																													<SplitSingle Orientation="Vertical">
 																																																																														<Version/>
 																																																																														<Upper Offset="10"/>
 																																																																														<Lower Offset="10"/>
-																																																																														<Name Value="CTISTINC"/>
+																																																																														<Name Value="Split%20once"/>
 																																																																														<Connections>
 																																																																															<Connection>
-																																																																																<Null>
+																																																																																<Store Type="string" TrimCharSet="%20">
+																																																																																	<Version/>
+																																																																																	<Name Value="CTISTINC"/>
 																																																																																	<Connections>
 																																																																																		<Connection/>
 																																																																																	</Connections>
@@ -2450,14 +2536,14 @@
 																																																																																		<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																		<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																	</XData>
-																																																																																</Null>
+																																																																																</Store>
 																																																																															</Connection>
 																																																																															<Connection>
 																																																																																<SplitSingle Orientation="Vertical">
 																																																																																	<Version/>
 																																																																																	<Upper Offset="10"/>
 																																																																																	<Lower Offset="10"/>
-																																																																																	<Name Value="CTIBRCH"/>
+																																																																																	<Name Value="Split%20once"/>
 																																																																																	<Connections>
 																																																																																		<Connection>
 																																																																																			<Null>
@@ -2475,10 +2561,12 @@
 																																																																																				<Version/>
 																																																																																				<Upper Offset="1"/>
 																																																																																				<Lower Offset="1"/>
-																																																																																				<Name Value="CTICEE"/>
+																																																																																				<Name Value="Split%20once"/>
 																																																																																				<Connections>
 																																																																																					<Connection>
-																																																																																						<Null>
+																																																																																						<Store Type="string" TrimCharSet="%20">
+																																																																																							<Version/>
+																																																																																							<Name Value="CTICEE"/>
 																																																																																							<Connections>
 																																																																																								<Connection/>
 																																																																																							</Connections>
@@ -2486,17 +2574,19 @@
 																																																																																								<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																								<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																							</XData>
-																																																																																						</Null>
+																																																																																						</Store>
 																																																																																					</Connection>
 																																																																																					<Connection>
 																																																																																						<SplitSingle Orientation="Vertical">
 																																																																																							<Version/>
 																																																																																							<Upper Offset="1"/>
 																																																																																							<Lower Offset="10"/>
-																																																																																							<Name Value="CTISTATUT"/>
+																																																																																							<Name Value="Split%20once"/>
 																																																																																							<Connections>
 																																																																																								<Connection>
-																																																																																									<Null>
+																																																																																									<Store Type="string" TrimCharSet="%20">
+																																																																																										<Version/>
+																																																																																										<Name Value="CTISTATUT"/>
 																																																																																										<Connections>
 																																																																																											<Connection/>
 																																																																																										</Connections>
@@ -2504,17 +2594,19 @@
 																																																																																											<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																											<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																										</XData>
-																																																																																									</Null>
+																																																																																									</Store>
 																																																																																								</Connection>
 																																																																																								<Connection>
 																																																																																									<SplitSingle Orientation="Vertical">
 																																																																																										<Version/>
 																																																																																										<Upper Offset="1"/>
 																																																																																										<Lower Offset="35"/>
-																																																																																										<Name Value="CTICAPITAL"/>
+																																																																																										<Name Value="Split%20once"/>
 																																																																																										<Connections>
 																																																																																											<Connection>
-																																																																																												<Null>
+																																																																																												<Store Type="string" TrimCharSet="%20">
+																																																																																													<Version/>
+																																																																																													<Name Value="CTICAPITAL"/>
 																																																																																													<Connections>
 																																																																																														<Connection/>
 																																																																																													</Connections>
@@ -2522,17 +2614,19 @@
 																																																																																														<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																														<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																													</XData>
-																																																																																												</Null>
+																																																																																												</Store>
 																																																																																											</Connection>
 																																																																																											<Connection>
 																																																																																												<SplitSingle Orientation="Vertical">
 																																																																																													<Version/>
 																																																																																													<Upper Offset="80"/>
 																																																																																													<Lower Offset="35"/>
-																																																																																													<Name Value="CFILLE"/>
+																																																																																													<Name Value="Split%20once"/>
 																																																																																													<Connections>
 																																																																																														<Connection>
-																																																																																															<Null>
+																																																																																															<Store Type="string" TrimCharSet="%20">
+																																																																																																<Version/>
+																																																																																																<Name Value="CFILLE"/>
 																																																																																																<Connections>
 																																																																																																	<Connection/>
 																																																																																																</Connections>
@@ -2540,17 +2634,19 @@
 																																																																																																	<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																																	<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																																</XData>
-																																																																																															</Null>
+																																																																																															</Store>
 																																																																																														</Connection>
 																																																																																														<Connection>
 																																																																																															<SplitSingle Orientation="Vertical">
 																																																																																																<Version/>
 																																																																																																<Upper Offset="1"/>
 																																																																																																<Lower Offset="1"/>
-																																																																																																<Name Value="CFF02"/>
+																																																																																																<Name Value="Split%20once"/>
 																																																																																																<Connections>
 																																																																																																	<Connection>
-																																																																																																		<Null>
+																																																																																																		<Store Type="string" TrimCharSet="%20">
+																																																																																																			<Version/>
+																																																																																																			<Name Value="CFF02"/>
 																																																																																																			<Connections>
 																																																																																																				<Connection/>
 																																																																																																			</Connections>
@@ -2558,7 +2654,7 @@
 																																																																																																				<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																																				<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																																			</XData>
-																																																																																																		</Null>
+																																																																																																		</Store>
 																																																																																																	</Connection>
 																																																																																																	<Connection>
 																																																																																																		<Ignore>
@@ -2793,7 +2889,9 @@
 																								<Name Value="FCODER"/>
 																								<Connections>
 																									<Connection>
-																										<Null>
+																										<Store Type="string" TrimCharSet="%20">
+																											<Version/>
+																											<Name Value="FCODER"/>
 																											<Connections>
 																												<Connection/>
 																											</Connections>
@@ -2801,17 +2899,19 @@
 																												<OpenState Property="1" Preview="1" Connector="1"/>
 																												<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																											</XData>
-																										</Null>
+																										</Store>
 																									</Connection>
 																									<Connection>
 																										<SplitSingle Orientation="Vertical">
 																											<Version/>
 																											<Upper Offset="35"/>
 																											<Lower Offset="35"/>
-																											<Name Value="FNUMFA"/>
+																											<Name Value="Split%20once"/>
 																											<Connections>
 																												<Connection>
-																													<Null>
+																													<Store Type="string" TrimCharSet="%20">
+																														<Version/>
+																														<Name Value="FNUMFA"/>
 																														<Connections>
 																															<Connection/>
 																														</Connections>
@@ -2819,17 +2919,19 @@
 																															<OpenState Property="1" Preview="1" Connector="1"/>
 																															<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																														</XData>
-																													</Null>
+																													</Store>
 																												</Connection>
 																												<Connection>
 																													<SplitSingle Orientation="Vertical">
 																														<Version/>
 																														<Upper Offset="3"/>
 																														<Lower Offset="3"/>
-																														<Name Value="FCPAI1"/>
+																														<Name Value="Split%20once"/>
 																														<Connections>
 																															<Connection>
-																																<Null>
+																																<Store Type="string" TrimCharSet="%20">
+																																	<Version/>
+																																	<Name Value="FCPAI1"/>
 																																	<Connections>
 																																		<Connection/>
 																																	</Connections>
@@ -2837,17 +2939,19 @@
 																																		<OpenState Property="1" Preview="1" Connector="1"/>
 																																		<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																	</XData>
-																																</Null>
+																																</Store>
 																															</Connection>
 																															<Connection>
 																																<SplitSingle Orientation="Vertical">
 																																	<Version/>
 																																	<Upper Offset="1"/>
 																																	<Lower Offset="20"/>
-																																	<Name Value="FCPAI2"/>
+																																	<Name Value="Split%20once"/>
 																																	<Connections>
 																																		<Connection>
-																																			<Null>
+																																			<Store Type="string" TrimCharSet="%20">
+																																				<Version/>
+																																				<Name Value="FCPAI2"/>
 																																				<Connections>
 																																					<Connection/>
 																																				</Connections>
@@ -2855,17 +2959,19 @@
 																																					<OpenState Property="1" Preview="1" Connector="1"/>
 																																					<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																				</XData>
-																																			</Null>
+																																			</Store>
 																																		</Connection>
 																																		<Connection>
 																																			<SplitSingle Orientation="Vertical">
 																																				<Version/>
 																																				<Upper Offset="3"/>
 																																				<Lower Offset="3"/>
-																																				<Name Value="FCPAI3"/>
+																																				<Name Value="Split%20once"/>
 																																				<Connections>
 																																					<Connection>
-																																						<Null>
+																																						<Store Type="string" TrimCharSet="%20">
+																																							<Version/>
+																																							<Name Value="FCPAI3"/>
 																																							<Connections>
 																																								<Connection/>
 																																							</Connections>
@@ -2873,17 +2979,19 @@
 																																								<OpenState Property="1" Preview="1" Connector="1"/>
 																																								<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																							</XData>
-																																						</Null>
+																																						</Store>
 																																					</Connection>
 																																					<Connection>
 																																						<SplitSingle Orientation="Vertical">
 																																							<Version/>
 																																							<Upper Offset="3"/>
 																																							<Lower Offset="3"/>
-																																							<Name Value="FCPAI4"/>
+																																							<Name Value="Split%20once"/>
 																																							<Connections>
 																																								<Connection>
-																																									<Null>
+																																									<Store Type="string" TrimCharSet="%20">
+																																										<Version/>
+																																										<Name Value="FCPAI4"/>
 																																										<Connections>
 																																											<Connection/>
 																																										</Connections>
@@ -2891,17 +2999,19 @@
 																																											<OpenState Property="1" Preview="1" Connector="1"/>
 																																											<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																										</XData>
-																																									</Null>
+																																									</Store>
 																																								</Connection>
 																																								<Connection>
 																																									<SplitSingle Orientation="Vertical">
 																																										<Version/>
 																																										<Upper Offset="1"/>
 																																										<Lower Offset="3"/>
-																																										<Name Value="FCPAI5"/>
+																																										<Name Value="Split%20once"/>
 																																										<Connections>
 																																											<Connection>
-																																												<Null>
+																																												<Store Type="string" TrimCharSet="%20">
+																																													<Version/>
+																																													<Name Value="FCPAI5"/>
 																																													<Connections>
 																																														<Connection/>
 																																													</Connections>
@@ -2909,17 +3019,19 @@
 																																														<OpenState Property="1" Preview="1" Connector="1"/>
 																																														<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																													</XData>
-																																												</Null>
+																																												</Store>
 																																											</Connection>
 																																											<Connection>
 																																												<SplitSingle Orientation="Vertical">
 																																													<Version/>
 																																													<Upper Offset="8"/>
 																																													<Lower Offset="8"/>
-																																													<Name Value="FDTECH"/>
+																																													<Name Value="Split%20once"/>
 																																													<Connections>
 																																														<Connection>
-																																															<Null>
+																																															<Store Type="string" TrimCharSet="%20">
+																																																<Version/>
+																																																<Name Value="FDTECH"/>
 																																																<Connections>
 																																																	<Connection/>
 																																																</Connections>
@@ -2927,17 +3039,19 @@
 																																																	<OpenState Property="1" Preview="1" Connector="1"/>
 																																																	<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																</XData>
-																																															</Null>
+																																															</Store>
 																																														</Connection>
 																																														<Connection>
 																																															<SplitSingle Orientation="Vertical">
 																																																<Version/>
 																																																<Upper Offset="6"/>
 																																																<Lower Offset="6"/>
-																																																<Name Value="FCPTAU"/>
+																																																<Name Value="Split%20once"/>
 																																																<Connections>
 																																																	<Connection>
-																																																		<Null>
+																																																		<Store Type="string" TrimCharSet="%20">
+																																																			<Version/>
+																																																			<Name Value="FCPTAU"/>
 																																																			<Connections>
 																																																				<Connection/>
 																																																			</Connections>
@@ -2945,17 +3059,19 @@
 																																																				<OpenState Property="1" Preview="1" Connector="1"/>
 																																																				<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																			</XData>
-																																																		</Null>
+																																																		</Store>
 																																																	</Connection>
 																																																	<Connection>
 																																																		<SplitSingle Orientation="Vertical">
 																																																			<Version/>
 																																																			<Upper Offset="3"/>
 																																																			<Lower Offset="3"/>
-																																																			<Name Value="FTYPMT1"/>
+																																																			<Name Value="Split%20once"/>
 																																																			<Connections>
 																																																				<Connection>
-																																																					<Null>
+																																																					<Store Type="string" TrimCharSet="%20">
+																																																						<Version/>
+																																																						<Name Value="FTYPMT1"/>
 																																																						<Connections>
 																																																							<Connection/>
 																																																						</Connections>
@@ -2963,17 +3079,19 @@
 																																																							<OpenState Property="1" Preview="1" Connector="1"/>
 																																																							<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																						</XData>
-																																																					</Null>
+																																																					</Store>
 																																																				</Connection>
 																																																				<Connection>
 																																																					<SplitSingle Orientation="Vertical">
 																																																						<Version/>
 																																																						<Upper Offset="16"/>
 																																																						<Lower Offset="16"/>
-																																																						<Name Value="FVALMT1"/>
+																																																						<Name Value="Split%20once"/>
 																																																						<Connections>
 																																																							<Connection>
-																																																								<Null>
+																																																								<Store Type="string" TrimCharSet="%20">
+																																																									<Version/>
+																																																									<Name Value="FTYPMT1"/>
 																																																									<Connections>
 																																																										<Connection/>
 																																																									</Connections>
@@ -2981,17 +3099,19 @@
 																																																										<OpenState Property="1" Preview="1" Connector="1"/>
 																																																										<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																									</XData>
-																																																								</Null>
+																																																								</Store>
 																																																							</Connection>
 																																																							<Connection>
 																																																								<SplitSingle Orientation="Vertical">
 																																																									<Version/>
 																																																									<Upper Offset="3"/>
 																																																									<Lower Offset="3"/>
-																																																									<Name Value="FVALDV1"/>
+																																																									<Name Value="Split%20once"/>
 																																																									<Connections>
 																																																										<Connection>
-																																																											<Null>
+																																																											<Store Type="string" TrimCharSet="%20">
+																																																												<Version/>
+																																																												<Name Value="FVALDV1"/>
 																																																												<Connections>
 																																																													<Connection/>
 																																																												</Connections>
@@ -2999,17 +3119,19 @@
 																																																													<OpenState Property="1" Preview="1" Connector="1"/>
 																																																													<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																												</XData>
-																																																											</Null>
+																																																											</Store>
 																																																										</Connection>
 																																																										<Connection>
 																																																											<SplitSingle Orientation="Vertical">
 																																																												<Version/>
 																																																												<Upper Offset="1"/>
 																																																												<Lower Offset="3"/>
-																																																												<Name Value="FPAPAY"/>
+																																																												<Name Value="Split%20once"/>
 																																																												<Connections>
 																																																													<Connection>
-																																																														<Null>
+																																																														<Store Type="string" TrimCharSet="%20">
+																																																															<Version/>
+																																																															<Name Value="FPAPAY"/>
 																																																															<Connections>
 																																																																<Connection/>
 																																																															</Connections>
@@ -3017,17 +3139,19 @@
 																																																																<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																															</XData>
-																																																														</Null>
+																																																														</Store>
 																																																													</Connection>
 																																																													<Connection>
 																																																														<SplitSingle Orientation="Vertical">
 																																																															<Version/>
 																																																															<Upper Offset="40"/>
 																																																															<Lower Offset="40"/>
-																																																															<Name Value="FPATIE"/>
+																																																															<Name Value="Split%20once"/>
 																																																															<Connections>
 																																																																<Connection>
-																																																																	<Null>
+																																																																	<Store Type="string" TrimCharSet="%20">
+																																																																		<Version/>
+																																																																		<Name Value="FPATIE"/>
 																																																																		<Connections>
 																																																																			<Connection/>
 																																																																		</Connections>
@@ -3035,17 +3159,19 @@
 																																																																			<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																			<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																		</XData>
-																																																																	</Null>
+																																																																	</Store>
 																																																																</Connection>
 																																																																<Connection>
 																																																																	<SplitSingle Orientation="Vertical">
 																																																																		<Version/>
 																																																																		<Upper Offset="35"/>
 																																																																		<Lower Offset="35"/>
-																																																																		<Name Value="FPATIN"/>
+																																																																		<Name Value="Split%20once"/>
 																																																																		<Connections>
 																																																																			<Connection>
-																																																																				<Null>
+																																																																				<Store Type="string" TrimCharSet="%20">
+																																																																					<Version/>
+																																																																					<Name Value="FPATIN"/>
 																																																																					<Connections>
 																																																																						<Connection/>
 																																																																					</Connections>
@@ -3053,17 +3179,19 @@
 																																																																						<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																						<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																					</XData>
-																																																																				</Null>
+																																																																				</Store>
 																																																																			</Connection>
 																																																																			<Connection>
 																																																																				<SplitSingle Orientation="Vertical">
 																																																																					<Version/>
 																																																																					<Upper Offset="1"/>
 																																																																					<Lower Offset="20"/>
-																																																																					<Name Value="FPACOD"/>
+																																																																					<Name Value="Split%20once"/>
 																																																																					<Connections>
 																																																																						<Connection>
-																																																																							<Null>
+																																																																							<Store Type="string" TrimCharSet="%20">
+																																																																								<Version/>
+																																																																								<Name Value="FPATIN"/>
 																																																																								<Connections>
 																																																																									<Connection/>
 																																																																								</Connections>
@@ -3071,17 +3199,19 @@
 																																																																									<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																									<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																								</XData>
-																																																																							</Null>
+																																																																							</Store>
 																																																																						</Connection>
 																																																																						<Connection>
 																																																																							<SplitSingle Orientation="Vertical">
 																																																																								<Version/>
 																																																																								<Upper Offset="1"/>
 																																																																								<Lower Offset="40"/>
-																																																																								<Name Value="FPANOM"/>
+																																																																								<Name Value="Split%20once"/>
 																																																																								<Connections>
 																																																																									<Connection>
-																																																																										<Null>
+																																																																										<Store Type="string" TrimCharSet="%20">
+																																																																											<Version/>
+																																																																											<Name Value="FPANOM"/>
 																																																																											<Connections>
 																																																																												<Connection/>
 																																																																											</Connections>
@@ -3089,17 +3219,19 @@
 																																																																												<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																												<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																											</XData>
-																																																																										</Null>
+																																																																										</Store>
 																																																																									</Connection>
 																																																																									<Connection>
 																																																																										<SplitSingle Orientation="Vertical">
 																																																																											<Version/>
 																																																																											<Upper Offset="20"/>
 																																																																											<Lower Offset="20"/>
-																																																																											<Name Value="FPAIRG"/>
+																																																																											<Name Value="Split%20once"/>
 																																																																											<Connections>
 																																																																												<Connection>
-																																																																													<Null>
+																																																																													<Store Type="string" TrimCharSet="%20">
+																																																																														<Version/>
+																																																																														<Name Value="FPAIRG"/>
 																																																																														<Connections>
 																																																																															<Connection/>
 																																																																														</Connections>
@@ -3107,17 +3239,19 @@
 																																																																															<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																															<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																														</XData>
-																																																																													</Null>
+																																																																													</Store>
 																																																																												</Connection>
 																																																																												<Connection>
 																																																																													<SplitSingle Orientation="Vertical">
 																																																																														<Version/>
 																																																																														<Upper Offset="4"/>
 																																																																														<Lower Offset="3"/>
-																																																																														<Name Value="FTYPMT2"/>
+																																																																														<Name Value="Split%20once"/>
 																																																																														<Connections>
 																																																																															<Connection>
-																																																																																<Null>
+																																																																																<Store Type="string" TrimCharSet="%20">
+																																																																																	<Version/>
+																																																																																	<Name Value="FTYPMT2"/>
 																																																																																	<Connections>
 																																																																																		<Connection/>
 																																																																																	</Connections>
@@ -3125,17 +3259,19 @@
 																																																																																		<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																		<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																	</XData>
-																																																																																</Null>
+																																																																																</Store>
 																																																																															</Connection>
 																																																																															<Connection>
 																																																																																<SplitSingle Orientation="Vertical">
 																																																																																	<Version/>
 																																																																																	<Upper Offset="16"/>
 																																																																																	<Lower Offset="16"/>
-																																																																																	<Name Value="FVALMT2"/>
+																																																																																	<Name Value="Split%20once"/>
 																																																																																	<Connections>
 																																																																																		<Connection>
-																																																																																			<Null>
+																																																																																			<Store Type="string" TrimCharSet="%20">
+																																																																																				<Version/>
+																																																																																				<Name Value="FVALMT2"/>
 																																																																																				<Connections>
 																																																																																					<Connection/>
 																																																																																				</Connections>
@@ -3143,17 +3279,19 @@
 																																																																																					<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																					<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																				</XData>
-																																																																																			</Null>
+																																																																																			</Store>
 																																																																																		</Connection>
 																																																																																		<Connection>
 																																																																																			<SplitSingle Orientation="Vertical">
 																																																																																				<Version/>
 																																																																																				<Upper Offset="1"/>
 																																																																																				<Lower Offset="3"/>
-																																																																																				<Name Value="FVALDV2"/>
+																																																																																				<Name Value="Split%20once"/>
 																																																																																				<Connections>
 																																																																																					<Connection>
-																																																																																						<Null>
+																																																																																						<Store Type="string" TrimCharSet="%20">
+																																																																																							<Version/>
+																																																																																							<Name Value="FVALDV2"/>
 																																																																																							<Connections>
 																																																																																								<Connection/>
 																																																																																							</Connections>
@@ -3161,17 +3299,19 @@
 																																																																																								<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																								<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																							</XData>
-																																																																																						</Null>
+																																																																																						</Store>
 																																																																																					</Connection>
 																																																																																					<Connection>
 																																																																																						<SplitSingle Orientation="Vertical">
 																																																																																							<Version/>
 																																																																																							<Upper Offset="2"/>
 																																																																																							<Lower Offset="2"/>
-																																																																																							<Name Value="FTYPTVA"/>
+																																																																																							<Name Value="Split%20once"/>
 																																																																																							<Connections>
 																																																																																								<Connection>
-																																																																																									<Null>
+																																																																																									<Store Type="string" TrimCharSet="%20">
+																																																																																										<Version/>
+																																																																																										<Name Value="FTYPTVA"/>
 																																																																																										<Connections>
 																																																																																											<Connection/>
 																																																																																										</Connections>
@@ -3179,17 +3319,19 @@
 																																																																																											<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																											<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																										</XData>
-																																																																																									</Null>
+																																																																																									</Store>
 																																																																																								</Connection>
 																																																																																								<Connection>
 																																																																																									<SplitSingle Orientation="Vertical">
 																																																																																										<Version/>
 																																																																																										<Upper Offset="3"/>
 																																																																																										<Lower Offset="3"/>
-																																																																																										<Name Value="FTVAPAY"/>
+																																																																																										<Name Value="Split%20once"/>
 																																																																																										<Connections>
 																																																																																											<Connection>
-																																																																																												<Null>
+																																																																																												<Store Type="string" TrimCharSet="%20">
+																																																																																													<Version/>
+																																																																																													<Name Value="FTVAPAY"/>
 																																																																																													<Connections>
 																																																																																														<Connection/>
 																																																																																													</Connections>
@@ -3197,17 +3339,19 @@
 																																																																																														<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																														<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																													</XData>
-																																																																																												</Null>
+																																																																																												</Store>
 																																																																																											</Connection>
 																																																																																											<Connection>
 																																																																																												<SplitSingle Orientation="Vertical">
 																																																																																													<Version/>
 																																																																																													<Upper Offset="100"/>
 																																																																																													<Lower Offset="100"/>
-																																																																																													<Name Value="FFILLER"/>
+																																																																																													<Name Value="Split%20once"/>
 																																																																																													<Connections>
 																																																																																														<Connection>
-																																																																																															<Null>
+																																																																																															<Store Type="string" TrimCharSet="%20">
+																																																																																																<Version/>
+																																																																																																<Name Value="FFILLER"/>
 																																																																																																<Connections>
 																																																																																																	<Connection/>
 																																																																																																</Connections>
@@ -3215,17 +3359,19 @@
 																																																																																																	<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																																	<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																																</XData>
-																																																																																															</Null>
+																																																																																															</Store>
 																																																																																														</Connection>
 																																																																																														<Connection>
 																																																																																															<SplitSingle Orientation="Vertical">
 																																																																																																<Version/>
 																																																																																																<Upper Offset="1"/>
 																																																																																																<Lower Offset="1"/>
-																																																																																																<Name Value="FFF03"/>
+																																																																																																<Name Value="Split%20once"/>
 																																																																																																<Connections>
 																																																																																																	<Connection>
-																																																																																																		<Null>
+																																																																																																		<Store Type="string" TrimCharSet="%20">
+																																																																																																			<Version/>
+																																																																																																			<Name Value="FFF03"/>
 																																																																																																			<Connections>
 																																																																																																				<Connection/>
 																																																																																																			</Connections>
@@ -3233,7 +3379,7 @@
 																																																																																																				<OpenState Property="1" Preview="1" Connector="1"/>
 																																																																																																				<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																																																																			</XData>
-																																																																																																		</Null>
+																																																																																																		</Store>
 																																																																																																	</Connection>
 																																																																																																	<Connection>
 																																																																																																		<Ignore>
@@ -3436,7 +3582,9 @@
 																											<Name Value="CORENR"/>
 																											<Connections>
 																												<Connection>
-																													<Null>
+																													<Store Type="string" TrimCharSet="%20">
+																														<Version/>
+																														<Name Value="CORENR"/>
 																														<Connections>
 																															<Connection/>
 																														</Connections>
@@ -3444,7 +3592,7 @@
 																															<OpenState Property="1" Preview="1" Connector="1"/>
 																															<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																														</XData>
-																													</Null>
+																													</Store>
 																												</Connection>
 																												<Connection>
 																													<SplitSingle Orientation="Vertical">
@@ -3454,7 +3602,9 @@
 																														<Name Value="CORFAC"/>
 																														<Connections>
 																															<Connection>
-																																<Null>
+																																<Store Type="string" TrimCharSet="%20">
+																																	<Version/>
+																																	<Name Value="CORFAC"/>
 																																	<Connections>
 																																		<Connection/>
 																																	</Connections>
@@ -3462,7 +3612,7 @@
 																																		<OpenState Property="1" Preview="1" Connector="1"/>
 																																		<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																	</XData>
-																																</Null>
+																																</Store>
 																															</Connection>
 																															<Connection>
 																																<SplitSingle Orientation="Vertical">
@@ -3472,7 +3622,9 @@
 																																	<Name Value="CORLIG"/>
 																																	<Connections>
 																																		<Connection>
-																																			<Null>
+																																			<Store Type="string" TrimCharSet="%20">
+																																				<Version/>
+																																				<Name Value="CORLIG"/>
 																																				<Connections>
 																																					<Connection/>
 																																				</Connections>
@@ -3480,7 +3632,7 @@
 																																					<OpenState Property="1" Preview="1" Connector="1"/>
 																																					<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																				</XData>
-																																			</Null>
+																																			</Store>
 																																		</Connection>
 																																		<Connection>
 																																			<SplitSingle Orientation="Vertical">
@@ -3490,7 +3642,9 @@
 																																				<Name Value="CORLIB"/>
 																																				<Connections>
 																																					<Connection>
-																																						<Null>
+																																						<Store Type="string" TrimCharSet="%20">
+																																							<Version/>
+																																							<Name Value="CORLIB"/>
 																																							<Connections>
 																																								<Connection/>
 																																							</Connections>
@@ -3498,7 +3652,7 @@
 																																								<OpenState Property="1" Preview="1" Connector="1"/>
 																																								<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																							</XData>
-																																						</Null>
+																																						</Store>
 																																					</Connection>
 																																					<Connection>
 																																						<SplitSingle Orientation="Vertical">
@@ -3508,7 +3662,9 @@
 																																							<Name Value="CORQUA"/>
 																																							<Connections>
 																																								<Connection>
-																																									<Null>
+																																									<Store Type="string" TrimCharSet="%20">
+																																										<Version/>
+																																										<Name Value="CORQUA"/>
 																																										<Connections>
 																																											<Connection/>
 																																										</Connections>
@@ -3516,7 +3672,7 @@
 																																											<OpenState Property="1" Preview="1" Connector="1"/>
 																																											<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																										</XData>
-																																									</Null>
+																																									</Store>
 																																								</Connection>
 																																								<Connection>
 																																									<SplitSingle Orientation="Vertical">
@@ -3526,7 +3682,9 @@
 																																										<Name Value="CORSEQ"/>
 																																										<Connections>
 																																											<Connection>
-																																												<Null>
+																																												<Store Type="string" TrimCharSet="%20">
+																																													<Version/>
+																																													<Name Value="CORSEQ"/>
 																																													<Connections>
 																																														<Connection/>
 																																													</Connections>
@@ -3534,7 +3692,7 @@
 																																														<OpenState Property="1" Preview="1" Connector="1"/>
 																																														<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																													</XData>
-																																												</Null>
+																																												</Store>
 																																											</Connection>
 																																											<Connection>
 																																												<SplitSingle Orientation="Vertical">
@@ -3544,7 +3702,9 @@
 																																													<Name Value="FF15"/>
 																																													<Connections>
 																																														<Connection>
-																																															<Null>
+																																															<Store Type="string" TrimCharSet="%20">
+																																																<Version/>
+																																																<Name Value="FF15"/>
 																																																<Connections>
 																																																	<Connection/>
 																																																</Connections>
@@ -3552,10 +3712,10 @@
 																																																	<OpenState Property="1" Preview="1" Connector="1"/>
 																																																	<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																</XData>
-																																															</Null>
+																																															</Store>
 																																														</Connection>
 																																														<Connection>
-																																															<Null>
+																																															<Ignore>
 																																																<Connections>
 																																																	<Connection/>
 																																																</Connections>
@@ -3563,7 +3723,7 @@
 																																																	<OpenState Property="1" Preview="1" Connector="1"/>
 																																																	<Dimension FullWidth="600" FullHeight="214" TextHeight="187"/>
 																																																</XData>
-																																															</Null>
+																																															</Ignore>
 																																														</Connection>
 																																													</Connections>
 																																													<XData>
