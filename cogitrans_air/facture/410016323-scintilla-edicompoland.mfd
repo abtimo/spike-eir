@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2023sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="15" kind="2">
+					<targets>
+						<datapoint pos="0" key="17"/>
+					</targets>
+					<view ltx="474" lty="-49" rbx="519" rby="-33"/>
+					<data>
+						<constant value="1" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="16" kind="2">
+					<targets>
+						<datapoint pos="0" key="19"/>
+					</targets>
+					<view ltx="475" lty="-17" rbx="520" rby="-1"/>
+					<data>
+						<constant value="1" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="24" kind="2">
+					<targets>
+						<datapoint pos="0" key="31"/>
+					</targets>
+					<view ltx="635" lty="323" rbx="713" rby="339"/>
+					<data>
+						<constant value="ssssssss" datatype="string"/>
+					</data>
+				</component>
+				<component name="now" library="lang" uid="26" kind="5">
+					<targets>
+						<datapoint pos="0" key="32"/>
+					</targets>
+					<view ltx="516" lty="113" rbx="560" rby="149"/>
+				</component>
+				<component name="constant" library="core" uid="22" kind="2">
+					<targets>
+						<datapoint pos="0" key="24"/>
+					</targets>
+					<view ltx="433" lty="202" rbx="571" rby="218"/>
+					<data>
+						<constant value="[Y,4-4][M,2-2][D,2-2]" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="23" kind="2">
+					<targets>
+						<datapoint pos="0" key="30"/>
+					</targets>
+					<view ltx="475" lty="26" rbx="536" rby="42"/>
+					<data>
+						<constant value="false" datatype="string"/>
+					</data>
+				</component>
+				<component name="410016323" library="text" uid="2" kind="16">
+					<properties/>
+					<view ltx="71" lty="-72" rbx="400" rby="445"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Root" expanded="1">
+										<entry name="Split once" expanded="1">
+											<entry name="Split once" expanded="1">
+												<entry name="Split Once" expanded="1">
+													<entry name="Split Once" expanded="1">
+														<entry name="Split Once" expanded="1">
+															<entry name="ENUMFA" outkey="3"/>
+															<entry name="Split Once" expanded="1">
+																<entry name="EFACAV" outkey="36"/>
+																<entry name="Split One" expanded="1">
+																	<entry name="EFACDT" outkey="33"/>
+																	<entry name="Split Once" expanded="1">
+																		<entry name="Split Once" expanded="1">
+																			<entry name="Split Once" expanded="1">
+																				<entry name="Split Once" expanded="1">
+																					<entry name="Split Once" expanded="1">
+																						<entry name="Split Once" expanded="1">
+																							<entry name="Split Once" expanded="1">
+																								<entry name="Split Once" expanded="1">
+																									<entry name="Split Once" expanded="1">
+																										<entry name="Split Once" expanded="1">
+																											<entry name="Split Once" expanded="1">
+																												<entry name="Split Once" expanded="1">
+																													<entry name="Split Once" expanded="1">
+																														<entry name="Split Once" expanded="1">
+																															<entry name="Split Once" expanded="1">
+																																<entry name="Split Once" expanded="1">
+																																	<entry name="Split Once" expanded="1">
+																																		<entry name="Split Once" expanded="1">
+																																			<entry name="Split Once" expanded="1">
+																																				<entry name="Split Once" expanded="1">
+																																					<entry name="Split Once" expanded="1">
+																																						<entry name="Split Once" expanded="1">
+																																							<entry name="Split Once" expanded="1">
+																																								<entry name="Split Once" expanded="1">
+																																									<entry name="Split Once" expanded="1">
+																																										<entry name="Split Once" expanded="1"/>
+																																									</entry>
+																																								</entry>
+																																							</entry>
+																																						</entry>
+																																					</entry>
+																																				</entry>
+																																			</entry>
+																																		</entry>
+																																	</entry>
+																																</entry>
+																															</entry>
+																														</entry>
+																													</entry>
+																												</entry>
+																											</entry>
+																										</entry>
+																									</entry>
+																								</entry>
+																							</entry>
+																						</entry>
+																					</entry>
+																				</entry>
+																			</entry>
+																		</entry>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+												</entry>
+												<entry name="Split once" expanded="1">
+													<entry name="Split once" expanded="1">
+														<entry name="CCODER" expanded="1"/>
+														<entry name="Split once" expanded="1">
+															<entry name="Split Once" expanded="1">
+																<entry name="Split Once" expanded="1">
+																	<entry name="Split Once" expanded="1">
+																		<entry name="Split Once" expanded="1"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="txt" encoding="52" byteorder="1" byteordermark="0" config="410016323.mft" inputinstance="410016323.txt"/>
+					</data>
+				</component>
+				<component name="parse-dateTime" library="core" uid="21" kind="5">
+					<sources>
+						<datapoint pos="0" key="25"/>
+						<datapoint pos="1" key="26"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="27"/>
+					</targets>
+					<view ltx="596" lty="141" rbx="695" rby="193"/>
+				</component>
+				<component name="POLAND_XML_INTEGRATION_LAYOUT_INVOICE_V03_9" library="xml" uid="8" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="2250" lty="-87" rbx="2550" rby="413"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="HEADER" expanded="1">
+										<entry name="Invoice_number" inpkey="9"/>
+										<entry name="EXT_EDIWIN" expanded="1"/>
+										<entry name="PRECEDING_INVOICE" expanded="1"/>
+										<entry name="TRANSPORT_DETAILS" expanded="1">
+											<entry name="ADDITIONAL_TRANSPORT_PROPERTIES" expanded="1"/>
+											<entry name="TRANSPORT_PARTIES" expanded="1"/>
+										</entry>
+										<entry name="LINE" expanded="1"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\..\FORMATS\EDICOM_XSD\POLAND_XML_INTEGRATION_LAYOUT_INVOICE_V03_9.XSD" instanceroot="{}HEADER" outputinstance="..\..\..\..\..\..\..\A_prog\GITLDBSCHENKER\FORMATS\EDICOM\XSD References_V1\00_Reference Documentation\EDICOM XSD\POLAND_XML_INTEGRATION_LAYOUT_INVOICE_V03_9.xml"/>
+					</data>
+				</component>
+				<component name="Voucher" library="xml" uid="9" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" PassThrough="1"/>
+					<view ltx="736" lty="-88" rbx="2194" rby="519"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.schenker.com/SGI/v4"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="2" expanded="1">
+								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="Voucher" ns="1" expanded="1">
+										<entry name="majorVersionNr" type="attribute" inpkey="16"/>
+										<entry name="minorVersionNr" type="attribute" inpkey="18"/>
+										<entry name="ApplicationArea" expanded="1">
+											<entry name="acknowledgementRequired" type="attribute" inpkey="28"/>
+											<entry name="CreationDateTime" inpkey="20"/>
+											<entry name="MessageID" expanded="1">
+												<entry name="ID" inpkey="10" outkey="11"/>
+												<entry name="RunningNumber" inpkey="29"/>
+											</entry>
+											<entry name="Sender">
+												<entry name="MessageInfo" expanded="1"/>
+												<entry name="ReferenceID" expanded="1"/>
+												<entry name="ConfirmationCode" expanded="1"/>
+											</entry>
+											<entry name="Receiver">
+												<entry name="Receiver" expanded="1">
+													<entry name="MessageInfo" expanded="1"/>
+													<entry name="ReferenceID" expanded="1"/>
+												</entry>
+											</entry>
+											<entry name="BODID" expanded="1"/>
+											<entry name="Signature" expanded="1"/>
+											<entry name="TechnicalContact" expanded="1">
+												<entry name="Name" expanded="1"/>
+												<entry name="ContactCommunication" expanded="1"/>
+											</entry>
+											<entry name="ProcessingTimes" expanded="1">
+												<entry name="ProcessingTime" expanded="1"/>
+											</entry>
+										</entry>
+										<entry name="DataArea" expanded="1">
+											<entry name="Action" expanded="1">
+												<entry name="ActionCode" expanded="1"/>
+											</entry>
+											<entry name="VoucherDescription" expanded="1">
+												<entry name="Identification" expanded="1">
+													<entry name="VoucherPartnerRelationship" expanded="1"/>
+												</entry>
+												<entry name="References">
+													<entry name="ReferenceID" expanded="1"/>
+												</entry>
+												<entry name="Dates" expanded="1">
+													<entry name="DateVoucher" inpkey="34"/>
+												</entry>
+												<entry name="Document" expanded="1">
+													<entry name="type" type="attribute" inpkey="35"/>
+													<entry name="PrintData" expanded="1"/>
+												</entry>
+												<entry name="VoucherDetail" expanded="1">
+													<entry name="OrderDetails" expanded="1">
+														<entry name="ServiceRequests" expanded="1"/>
+													</entry>
+													<entry name="Charges" expanded="1"/>
+													<entry name="Document" expanded="1">
+														<entry name="PrintData" expanded="1"/>
+														<entry name="MoreInfo" expanded="1"/>
+														<entry name="Signature" expanded="1">
+															<entry name="CreationDateTime" expanded="1">
+																<entry name="reason" expanded="1"/>
+															</entry>
+														</entry>
+													</entry>
+												</entry>
+												<entry name="VoucherSchedule" expanded="1">
+													<entry name="DaySchedule" expanded="1"/>
+													<entry name="WeekSchedule" expanded="1"/>
+													<entry name="MonthSchedule" expanded="1"/>
+													<entry name="YearSchedule" expanded="1"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\..\FORMATS\SGI_XSD\Messages\Voucher.xsd" instanceroot="{http://www.schenker.com/SGI/v4}Voucher" outputinstance="..\..\FORMATS\SCINTILLA\XSD\Messages\Voucher.xml"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="9"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="10"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="16"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="19">
+						<edges>
+							<edge vertexkey="18"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="32">
+						<edges>
+							<edge vertexkey="20"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="33">
+						<edges>
+							<edge vertexkey="25"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="24">
+						<edges>
+							<edge vertexkey="26"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="30">
+						<edges>
+							<edge vertexkey="28"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="31">
+						<edges>
+							<edge vertexkey="29"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="27">
+						<edges>
+							<edge vertexkey="34"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="36">
+						<edges>
+							<edge vertexkey="35"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

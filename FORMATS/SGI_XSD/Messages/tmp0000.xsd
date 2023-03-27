@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2015 rel. 4 sp1 (x64) (http://www.altova.com) by Brinkert, Andrea (Schenker AG) -->
+<!--
+$Date: 2018-07-26 14:24:25 +0200 (Do, 26 Jul 2018) $
+$Revision: 3585 $
+$Author: markus.wittek $
+$HeadURL: http://svn.dc.signintra.com/repos/SGI-REPOSITORY/4-0/TAGS/Release-v4-0-129/XSD/Messages/Voucher.xsd $
+$Id: Voucher.xsd 3585 2018-07-26 12:24:25Z markus.wittek $
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.schenker.com/SGI/v4" targetNamespace="http://www.schenker.com/SGI/v4" version="4-0-128">
+	<xs:include schemaLocation="../RootTypes/SGI-StructuredTypes.xsd"/>
+	<xs:element name="Voucher" type="VoucherMessageType">
+		<xs:annotation>
+			<xs:documentation source="MasterMapping">1</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="VoucherMessageDataType">
+		<xs:sequence>
+			<xs:element name="Action" type="ActionBasicType"/>
+			<xs:element name="MessageContact" type="ContactType" minOccurs="0"/>
+			<xs:element name="VoucherDescription" type="VoucherDescriptionType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="VoucherMessageType">
+		<xs:sequence>
+			<xs:element name="ApplicationArea" type="ApplicationAreaType"/>
+			<xs:element name="DataArea" type="VoucherMessageDataType"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="versionGroup"/>
+	</xs:complexType>
+</xs:schema>
