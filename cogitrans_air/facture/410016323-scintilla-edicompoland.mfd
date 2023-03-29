@@ -1,65 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Edited with Altova MapForce 2023sp1 -->
-<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="34">
 	<resources/>
-	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+	<component name="defaultmap" uid="1">
 		<properties SelectedLanguage="builtin"/>
 		<structure>
 			<children>
-				<component name="constant" library="core" uid="15" kind="2">
+				<component name="now" library="lang" uid="26" kind="5">
 					<targets>
-						<datapoint pos="0" key="17"/>
+						<datapoint pos="0" key="32"/>
 					</targets>
-					<view ltx="474" lty="-49" rbx="519" rby="-33"/>
+					<view ltx="462" lty="42" rbx="506" rby="78"/>
+				</component>
+				<component name="constant" library="core" uid="29" kind="2">
+					<targets>
+						<datapoint pos="0" key="37"/>
+					</targets>
+					<view ltx="606" lty="216" rbx="742" rby="232"/>
+					<data>
+						<constant value="[Y]-[M,2]-[D,2]T[H,2]:[m]:[s].[f][Z]" datatype="string"/>
+					</data>
+				</component>
+				<component name="format-dateTime" library="core" uid="28" kind="5">
+					<sources>
+						<datapoint pos="0" key="39"/>
+						<datapoint pos="1" key="40"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="41"/>
+					</targets>
+					<view ltx="799" lty="42" rbx="903" rby="110"/>
+				</component>
+				<component name="constant" library="core" uid="31" kind="2">
+					<targets>
+						<datapoint pos="0" key="42"/>
+					</targets>
+					<view ltx="819" lty="210" rbx="887" rby="226"/>
+					<data>
+						<constant value="PTSPT" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="32" kind="2">
+					<targets>
+						<datapoint pos="0" key="48"/>
+					</targets>
+					<view ltx="831" lty="142" rbx="935" rby="158"/>
+					<data>
+						<constant value="Portugal SITRI" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="33" kind="2">
+					<targets>
+						<datapoint pos="0" key="49"/>
+					</targets>
+					<view ltx="868" lty="270" rbx="923" rby="286"/>
+					<data>
+						<constant value="SGI" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="34" kind="2">
+					<targets>
+						<datapoint pos="0" key="50"/>
+					</targets>
+					<view ltx="1027" lty="238" rbx="1080" rby="254"/>
+					<data>
+						<constant value="4.0" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="35" kind="2">
+					<targets>
+						<datapoint pos="0" key="51"/>
+					</targets>
+					<view ltx="950" lty="297" rbx="1063" rby="313"/>
+					<data>
+						<constant value="SGI Voucher 4.0" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="36" kind="2">
+					<targets>
+						<datapoint pos="0" key="52"/>
+					</targets>
+					<view ltx="1038" lty="349" rbx="1110" rby="365"/>
+					<data>
+						<constant value="4.0.139" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="37" kind="2">
+					<targets>
+						<datapoint pos="0" key="53"/>
+					</targets>
+					<view ltx="1047" lty="178" rbx="1092" rby="194"/>
 					<data>
 						<constant value="1" datatype="string"/>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="16" kind="2">
+				<component name="constant" library="core" uid="38" kind="2">
 					<targets>
-						<datapoint pos="0" key="19"/>
+						<datapoint pos="0" key="54"/>
 					</targets>
-					<view ltx="475" lty="-17" rbx="520" rby="-1"/>
+					<view ltx="1005" lty="202" rbx="1081" rby="218"/>
 					<data>
-						<constant value="1" datatype="string"/>
+						<constant value="WWSTS" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="40" kind="2">
+					<targets>
+						<datapoint pos="0" key="59"/>
+					</targets>
+					<view ltx="1047" lty="142" rbx="1092" rby="158"/>
+					<data>
+						<constant value="9" datatype="string"/>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="41" kind="23">
+					<sources>
+						<datapoint pos="0" key="60"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="61"/>
+					</targets>
+					<view ltx="819" lty="210" rbx="893" rby="246"/>
+					<data>
+						<valuemap defaultValueMode="input">
+							<valuemapTable>
+								<entry from="381" to="FACTURE"/>
+								<entry from="380" to="AVOIR"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
 					</data>
 				</component>
 				<component name="constant" library="core" uid="24" kind="2">
 					<targets>
 						<datapoint pos="0" key="31"/>
 					</targets>
-					<view ltx="635" lty="323" rbx="713" rby="339"/>
+					<view ltx="1008" lty="104" rbx="1086" rby="120"/>
 					<data>
 						<constant value="ssssssss" datatype="string"/>
 					</data>
 				</component>
-				<component name="now" library="lang" uid="26" kind="5">
+				<component name="constant" library="core" uid="30" kind="2">
 					<targets>
-						<datapoint pos="0" key="32"/>
+						<datapoint pos="0" key="38"/>
 					</targets>
-					<view ltx="516" lty="113" rbx="560" rby="149"/>
-				</component>
-				<component name="constant" library="core" uid="22" kind="2">
-					<targets>
-						<datapoint pos="0" key="24"/>
-					</targets>
-					<view ltx="433" lty="202" rbx="571" rby="218"/>
+					<view ltx="1008" lty="76" rbx="1110" rby="92"/>
 					<data>
-						<constant value="[Y,4-4][M,2-2][D,2-2]" datatype="string"/>
+						<constant value="SWORD BDID" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="15" kind="2">
+					<targets>
+						<datapoint pos="0" key="17"/>
+					</targets>
+					<view ltx="1066" lty="-50" rbx="1111" rby="-34"/>
+					<data>
+						<constant value="4" datatype="string"/>
 					</data>
 				</component>
 				<component name="constant" library="core" uid="23" kind="2">
 					<targets>
 						<datapoint pos="0" key="30"/>
 					</targets>
-					<view ltx="475" lty="26" rbx="536" rby="42"/>
+					<view ltx="1061" lty="26" rbx="1122" rby="42"/>
 					<data>
 						<constant value="false" datatype="string"/>
 					</data>
 				</component>
+				<component name="constant" library="core" uid="16" kind="2">
+					<targets>
+						<datapoint pos="0" key="19"/>
+					</targets>
+					<view ltx="1066" lty="-26" rbx="1122" rby="-10"/>
+					<data>
+						<constant value="139" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="42" kind="2">
+					<targets>
+						<datapoint pos="0" key="62"/>
+					</targets>
+					<view ltx="685" lty="397" rbx="805" rby="413"/>
+					<data>
+						<constant value="INT_INVOIC_SAFT" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="43" kind="2">
+					<targets>
+						<datapoint pos="0" key="63"/>
+					</targets>
+					<view ltx="819" lty="437" rbx="934" rby="453"/>
+					<data>
+						<constant value="COGITRANS_AIR" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="44" kind="2">
+					<targets>
+						<datapoint pos="0" key="64"/>
+					</targets>
+					<view ltx="886" lty="388" rbx="934" rby="404"/>
+					<data>
+						<constant value="N" datatype="string"/>
+					</data>
+				</component>
+				<component name="parse-dateTime" library="core" uid="21" kind="5">
+					<sources>
+						<datapoint pos="0" key="25"/>
+						<datapoint pos="1" key="26"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="27"/>
+					</targets>
+					<view ltx="596" lty="141" rbx="695" rby="193"/>
+				</component>
+				<component name="parse-dateTime" library="core" uid="45" kind="5">
+					<sources>
+						<datapoint pos="0" key="70"/>
+						<datapoint pos="1" key="71"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="69"/>
+					</targets>
+					<view ltx="569" lty="437" rbx="668" rby="489"/>
+				</component>
 				<component name="410016323" library="text" uid="2" kind="16">
 					<properties/>
-					<view ltx="71" lty="-72" rbx="400" rby="445"/>
+					<view ltx="-172" lty="-231" rbx="395" rby="470"/>
 					<data>
 						<root>
 							<header>
@@ -150,6 +317,83 @@
 															</entry>
 														</entry>
 													</entry>
+													<entry name="Split once" expanded="1">
+														<entry name="Split once2" expanded="1">
+															<entry name="Split once" expanded="1">
+																<entry name="Split once" expanded="1">
+																	<entry name="Split once" expanded="1">
+																		<entry name="Split once" expanded="1">
+																			<entry name="Split once" expanded="1">
+																				<entry name="Split once" expanded="1">
+																					<entry name="Split once" expanded="1">
+																						<entry name="Split once" expanded="1">
+																							<entry name="Split once" expanded="1">
+																								<entry name="Split once" expanded="1">
+																									<entry name="Split once" expanded="1">
+																										<entry name="Split once" expanded="1">
+																											<entry name="Split once" expanded="1">
+																												<entry name="Split once" expanded="1">
+																													<entry name="Split once" expanded="1">
+																														<entry name="Split once" expanded="1">
+																															<entry name="Split once" expanded="1">
+																																<entry name="Split once" expanded="1">
+																																	<entry name="Split once" expanded="1">
+																																		<entry name="Split once" expanded="1">
+																																			<entry name="Split once" expanded="1"/>
+																																		</entry>
+																																	</entry>
+																																</entry>
+																															</entry>
+																														</entry>
+																													</entry>
+																												</entry>
+																											</entry>
+																										</entry>
+																									</entry>
+																								</entry>
+																							</entry>
+																						</entry>
+																					</entry>
+																				</entry>
+																			</entry>
+																		</entry>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+														<entry name="Split once" expanded="1">
+															<entry name="Split once" expanded="1">
+																<entry name="FCODER" expanded="1">
+																	<entry name="Split once" expanded="1">
+																		<entry name="Split once" expanded="1">
+																			<entry name="Split once" expanded="1">
+																				<entry name="Split once" expanded="1">
+																					<entry name="Split once" expanded="1">
+																						<entry name="Split once" expanded="1">
+																							<entry name="Split once" expanded="1">
+																								<entry name="FDTECH" outkey="73"/>
+																							</entry>
+																						</entry>
+																					</entry>
+																				</entry>
+																			</entry>
+																		</entry>
+																	</entry>
+																</entry>
+																<entry name="Split once" expanded="1">
+																	<entry name="CORENR" expanded="1">
+																		<entry name="CORFAC" expanded="1">
+																			<entry name="CORLIG" expanded="1">
+																				<entry name="CORLIB" expanded="1">
+																					<entry name="CORQUA" expanded="1"/>
+																				</entry>
+																			</entry>
+																		</entry>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
 												</entry>
 											</entry>
 										</entry>
@@ -160,50 +404,29 @@
 						<text type="txt" encoding="52" byteorder="1" byteordermark="0" config="410016323.mft" inputinstance="410016323.txt"/>
 					</data>
 				</component>
-				<component name="parse-dateTime" library="core" uid="21" kind="5">
-					<sources>
-						<datapoint pos="0" key="25"/>
-						<datapoint pos="1" key="26"/>
-					</sources>
+				<component name="constant" library="core" uid="22" kind="2">
 					<targets>
-						<datapoint pos="0" key="27"/>
+						<datapoint pos="0" key="24"/>
 					</targets>
-					<view ltx="596" lty="141" rbx="695" rby="193"/>
-				</component>
-				<component name="POLAND_XML_INTEGRATION_LAYOUT_INVOICE_V03_9" library="xml" uid="8" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="2250" lty="-87" rbx="2550" rby="413"/>
+					<view ltx="433" lty="202" rbx="571" rby="218"/>
 					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="HEADER" expanded="1">
-										<entry name="Invoice_number" inpkey="9"/>
-										<entry name="EXT_EDIWIN" expanded="1"/>
-										<entry name="PRECEDING_INVOICE" expanded="1"/>
-										<entry name="TRANSPORT_DETAILS" expanded="1">
-											<entry name="ADDITIONAL_TRANSPORT_PROPERTIES" expanded="1"/>
-											<entry name="TRANSPORT_PARTIES" expanded="1"/>
-										</entry>
-										<entry name="LINE" expanded="1"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="..\..\FORMATS\EDICOM_XSD\POLAND_XML_INTEGRATION_LAYOUT_INVOICE_V03_9.XSD" instanceroot="{}HEADER" outputinstance="..\..\..\..\..\..\..\A_prog\GITLDBSCHENKER\FORMATS\EDICOM\XSD References_V1\00_Reference Documentation\EDICOM XSD\POLAND_XML_INTEGRATION_LAYOUT_INVOICE_V03_9.xml"/>
+						<constant value="[Y,4-4][M,2-2][D,2-2]" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="46" kind="2">
+					<targets>
+						<datapoint pos="0" key="80"/>
+					</targets>
+					<view ltx="2578" lty="23" rbx="2694" rby="39"/>
+					<data>
+						<constant value="SYSTEM_MODEL" datatype="string"/>
 					</data>
 				</component>
 				<component name="Voucher" library="xml" uid="9" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" PassThrough="1"/>
-					<view ltx="736" lty="-88" rbx="2194" rby="519"/>
+					<view ltx="1314" lty="-254" rbx="2771" rby="433"/>
 					<data>
-						<root>
+						<root scrollposition="1444">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -219,37 +442,48 @@
 										<entry name="ApplicationArea" expanded="1">
 											<entry name="acknowledgementRequired" type="attribute" inpkey="28"/>
 											<entry name="CreationDateTime" inpkey="20"/>
-											<entry name="MessageID" expanded="1">
-												<entry name="ID" inpkey="10" outkey="11"/>
+											<entry name="MessageID">
+												<entry name="ID" inpkey="10"/>
 												<entry name="RunningNumber" inpkey="29"/>
 											</entry>
 											<entry name="Sender">
-												<entry name="MessageInfo" expanded="1"/>
+												<entry name="SystemID" type="comment-before" inpkey="44"/>
+												<entry name="SystemID" inpkey="43"/>
+												<entry name="MessageInfo" expanded="1">
+													<entry name="TypeOfStandard" inpkey="45"/>
+													<entry name="Version" inpkey="46"/>
+													<entry name="Name" inpkey="47"/>
+													<entry name="Release" inpkey="55"/>
+												</entry>
 												<entry name="ReferenceID" expanded="1"/>
 												<entry name="ConfirmationCode" expanded="1"/>
 											</entry>
-											<entry name="Receiver">
+											<entry name="Receiver" expanded="1">
+												<entry name="NOfReceiver" inpkey="56"/>
 												<entry name="Receiver" expanded="1">
-													<entry name="MessageInfo" expanded="1"/>
-													<entry name="ReferenceID" expanded="1"/>
+													<entry name="SystemID" inpkey="57"/>
+													<entry name="ReferenceID" expanded="1">
+														<entry name="schemeID" type="attribute" inpkey="65" outkey="81"/>
+														<entry name="schemeName" type="attribute" inpkey="66" outkey="82"/>
+														<entry name="schemeVersionID" type="attribute" inpkey="67"/>
+													</entry>
 												</entry>
 											</entry>
-											<entry name="BODID" expanded="1"/>
-											<entry name="Signature" expanded="1"/>
-											<entry name="TechnicalContact" expanded="1">
+											<entry name="TechnicalContact">
 												<entry name="Name" expanded="1"/>
 												<entry name="ContactCommunication" expanded="1"/>
 											</entry>
-											<entry name="ProcessingTimes" expanded="1">
+											<entry name="ProcessingTimes">
 												<entry name="ProcessingTime" expanded="1"/>
 											</entry>
 										</entry>
 										<entry name="DataArea" expanded="1">
-											<entry name="Action" expanded="1">
-												<entry name="ActionCode" expanded="1"/>
+											<entry name="Action">
+												<entry name="ActionCode" inpkey="58" expanded="1"/>
 											</entry>
 											<entry name="VoucherDescription" expanded="1">
-												<entry name="Identification" expanded="1">
+												<entry name="Identification">
+													<entry name="UniqueVoucherNumber" inpkey="68" outkey="75"/>
 													<entry name="VoucherPartnerRelationship" expanded="1"/>
 												</entry>
 												<entry name="References">
@@ -257,9 +491,10 @@
 												</entry>
 												<entry name="Dates" expanded="1">
 													<entry name="DateVoucher" inpkey="34"/>
+													<entry name="DateDue" inpkey="72"/>
 												</entry>
 												<entry name="Document" expanded="1">
-													<entry name="type" type="attribute" inpkey="35"/>
+													<entry name="type" type="attribute" inpkey="35" outkey="76"/>
 													<entry name="PrintData" expanded="1"/>
 												</entry>
 												<entry name="VoucherDetail" expanded="1">
@@ -292,67 +527,79 @@
 						<document schema="..\..\FORMATS\SGI_XSD\Messages\Voucher.xsd" instanceroot="{http://www.schenker.com/SGI/v4}Voucher" outputinstance="..\..\FORMATS\SCINTILLA\XSD\Messages\Voucher.xml"/>
 					</data>
 				</component>
+				<component name="POLAND_XML_INTEGRATION_LAYOUT_INVOICE_V03_9" library="xml" uid="8" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="3013" lty="-254" rbx="3313" rby="246"/>
+					<data>
+						<root scrollposition="1311">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="HEADER" expanded="1">
+										<entry name="Invoice_number" inpkey="9"/>
+										<entry name="Project" inpkey="77"/>
+										<entry name="Type" inpkey="74"/>
+										<entry name="EXT_EDIWIN" expanded="1"/>
+										<entry name="NOTES" expanded="1"/>
+										<entry name="ADDITIONAL_PROPERTIES" expanded="1">
+											<entry name="Name" inpkey="78"/>
+											<entry name="Value" inpkey="79"/>
+										</entry>
+										<entry name="PRECEDING_INVOICE" expanded="1"/>
+										<entry name="TRANSPORT_DETAILS" expanded="1">
+											<entry name="ADDITIONAL_TRANSPORT_PROPERTIES" expanded="1"/>
+											<entry name="TRANSPORT_PARTIES" expanded="1"/>
+										</entry>
+										<entry name="LINE" expanded="1"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\..\FORMATS\EDICOM_XSD\POLAND_XML_INTEGRATION_LAYOUT_INVOICE_V03_9.XSD" instanceroot="{}HEADER" outputinstance="..\..\..\..\..\..\..\A_prog\GITLDBSCHENKER\FORMATS\EDICOM\XSD References_V1\00_Reference Documentation\EDICOM XSD\POLAND_XML_INTEGRATION_LAYOUT_INVOICE_V03_9.xml"/>
+					</data>
+				</component>
 			</children>
-			<graph directed="1">
-				<edges/>
-				<vertices>
-					<vertex vertexkey="11">
-						<edges>
-							<edge vertexkey="9"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="3">
-						<edges>
-							<edge vertexkey="10"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="17">
-						<edges>
-							<edge vertexkey="16"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="19">
-						<edges>
-							<edge vertexkey="18"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="32">
-						<edges>
-							<edge vertexkey="20"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="33">
-						<edges>
-							<edge vertexkey="25"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="24">
-						<edges>
-							<edge vertexkey="26"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="30">
-						<edges>
-							<edge vertexkey="28"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="31">
-						<edges>
-							<edge vertexkey="29"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="27">
-						<edges>
-							<edge vertexkey="34"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="36">
-						<edges>
-							<edge vertexkey="35"/>
-						</edges>
-					</vertex>
-				</vertices>
-			</graph>
 		</structure>
+		<connections>
+			<edge from="75" to="9"/>
+			<edge from="38" to="10"/>
+			<edge from="17" to="16"/>
+			<edge from="19" to="18"/>
+			<edge from="41" to="20"/>
+			<edge from="33" to="25"/>
+			<edge from="24" to="26"/>
+			<edge from="30" to="28"/>
+			<edge from="31" to="29"/>
+			<edge from="27" to="34"/>
+			<edge from="61" to="35"/>
+			<edge from="32" to="39"/>
+			<edge from="37" to="40"/>
+			<edge from="42" to="43"/>
+			<edge from="48" to="44"/>
+			<edge from="49" to="45"/>
+			<edge from="50" to="46"/>
+			<edge from="51" to="47"/>
+			<edge from="52" to="55"/>
+			<edge from="53" to="56"/>
+			<edge from="54" to="57"/>
+			<edge from="59" to="58"/>
+			<edge from="36" to="60"/>
+			<edge from="62" to="65"/>
+			<edge from="63" to="66"/>
+			<edge from="64" to="67"/>
+			<edge from="3" to="68"/>
+			<edge from="73" to="70"/>
+			<edge from="24" to="71"/>
+			<edge from="69" to="72"/>
+			<edge from="76" to="74"/>
+			<edge from="81" to="77"/>
+			<edge from="80" to="78"/>
+			<edge from="82" to="79"/>
+		</connections>
 	</component>
 </mapping>
